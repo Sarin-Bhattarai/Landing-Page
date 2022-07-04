@@ -15,7 +15,14 @@ const App = () => {
   return (
     <>
       <Layout className="layout">
-        <Header>
+        <Header
+          style={{
+            height: "10vh",
+            position: "fixed",
+            width: "100%",
+            zIndex: 100,
+          }}
+        >
           <Navbar />
         </Header>
         <Content>

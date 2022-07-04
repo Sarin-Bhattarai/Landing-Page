@@ -3,6 +3,12 @@
 .nav-container {
     display: flex;
     justify-content: space-between;
+    background: transparent;
+    padding: 5px 5px;
+}
+
+.nav-container.active{
+    background: black;
 }
 
 .nav-logo {
@@ -32,8 +38,6 @@
 }
 
 
-/* changes */
-
 .btn {
     display: none;
     position: absolute;
@@ -44,7 +48,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 845px) {
 
     .nav-container ul {
         flex-direction: column;

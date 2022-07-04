@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "../utils/css/navbar.css";
-import { MenuOutlined } from "@ant-design/icons"; //changes
+import { MenuOutlined } from "@ant-design/icons";
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = useState(false); //changes
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth); //changes
+  const [toggleMenu, setToggleMenu] = useState(false);
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [navbar, setNavbar] = useState(false);
 
-  //changes
   const toggleNav = () => {
     setToggleMenu(!toggleMenu);
   };
@@ -21,10 +21,22 @@ const Navbar = () => {
     return () => {
       window.removeEventListener("resize", changeWidth);
     };
-  });
+  }, []);
+
+  //scroll part
+  const changeBackground = () => {
+    if (window.scrollY >= 10) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeBackground);
+  //scroll part ends here
 
   return (
-    <nav className="nav-container">
+    <nav className={navbar ? "nav-container active" : "nav-container"}>
       {/* first part */}
       <a href="/">
         <h2 className="nav-logo">
@@ -35,7 +47,7 @@ const Navbar = () => {
 
       {/* second part */}
 
-      {(toggleMenu || screenWidth > 830) && (
+      {(toggleMenu || screenWidth > 845) && (
         <ul>
           <li>
             <a href="/">HOME</a>
@@ -63,7 +75,6 @@ const Navbar = () => {
           </li>
         </ul>
       )}
-      {/* changes */}
       <span onClick={toggleNav} className="btn">
         <MenuOutlined />
       </span>
