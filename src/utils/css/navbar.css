@@ -2,7 +2,6 @@
 
 .nav-container {
     display: flex;
-    justify-content: space-between;
     background: transparent;
     padding: 5px 5px;
 }
@@ -21,6 +20,7 @@
     display: flex;
     gap: 1.5rem;
     position: relative;
+    left: 520px;
     margin: 0px 35px;
     padding: 4px 0px;
     font-family: 'Rubik', sans-serif;

@@ -5,7 +5,6 @@ import { MenuOutlined } from "@ant-design/icons";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  const [navbar, setNavbar] = useState(false);
 
   const toggleNav = () => {
     setToggleMenu(!toggleMenu);
@@ -23,20 +22,8 @@ const Navbar = () => {
     };
   }, []);
 
-  //scroll part
-  const changeBackground = () => {
-    if (window.scrollY >= 10) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
-
-  window.addEventListener("scroll", changeBackground);
-  //scroll part ends here
-
   return (
-    <nav className={navbar ? "nav-container active" : "nav-container"}>
+    <nav>
       {/* first part */}
       <a href="/">
         <h2 className="nav-logo">

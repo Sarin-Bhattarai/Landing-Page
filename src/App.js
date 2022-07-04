@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Layout } from "antd";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -12,10 +12,22 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   const { Header, Content, Footer } = Layout;
+  //scroll logic
+  const [navbar, setNavbar] = useState(false);
+  const changeBackground = () => {
+    if (window.scrollY >= 10) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+  window.addEventListener("scroll", changeBackground);
+  //scroll logic ends here
   return (
     <>
       <Layout className="layout">
         <Header
+          className={navbar ? "nav-container active" : "nav-container"}
           style={{
             height: "10vh",
             position: "fixed",

@@ -6,6 +6,7 @@ import Launch from "../utils/assets/Launch.png";
 const Home = () => {
   return (
     <Row
+      className="home-row"
       style={{
         backgroundColor: "#001529",
         height: "75vh",
