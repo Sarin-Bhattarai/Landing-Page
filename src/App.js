@@ -55,7 +55,6 @@ const App = () => {
           App Technologies ©2022 Created by App Tech
         </Footer>
       </Layout>
-      ;
     </>
   );
 };

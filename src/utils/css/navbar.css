@@ -48,7 +48,42 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 1286px) {
+    .nav-container li {
+       position: relative;
+       right: 220px;    
+    }
+}
+
+@media screen and (max-width: 1115px) {
+    .nav-container li {
+        position: relative;
+        right: 290px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .nav-container li {
+        position: relative;
+        right: 350px
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .nav-container li {
+        position: relative;
+        right: 420px
+    }
+}
+
+@media screen and (max-width: 911px) {
+    .nav-container li {
+        position: relative;
+        right: 440px
+    }
+}
+
+@media screen and (max-width: 890px) {
 
     .nav-container ul {
         flex-direction: column;

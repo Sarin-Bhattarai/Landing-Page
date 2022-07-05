@@ -34,7 +34,7 @@ const Navbar = () => {
 
       {/* second part */}
 
-      {(toggleMenu || screenWidth > 845) && (
+      {(toggleMenu || screenWidth > 890) && (
         <ul>
           <li>
             <a href="/">HOME</a>
