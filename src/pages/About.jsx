@@ -1,10 +1,10 @@
 import React from "react";
 import { Col, Row } from "antd";
-// import { BulbOutlined } from "@ant-design/icons";
 import "../utils/css/about.css";
 import { AiOutlineBulb } from "react-icons/ai";
 import { BiShieldAlt2 } from "react-icons/bi";
 import { IoOpenOutline } from "react-icons/io5";
+import aboutImage from "../utils/assets/aboutImage.jpg";
 
 const About = () => {
   return (
@@ -48,6 +48,32 @@ const About = () => {
               <br /> aspernatur at aut odit aut fugit sed quia
               <br /> consequuntur magni.
             </p>
+          </div>
+        </Col>
+      </Row>
+      <Row className="about-row-second">
+        <Col span={12}>
+          <div>
+            <h1 className="business-header">
+              Performancect Solution For Small
+              <br /> Businesses
+            </h1>
+            <p className="about-second-desc">
+              Temporibus autem quibusdam a aut officiis debitis rerum
+              necessitatibus
+              <br /> saepeeveniet ut et voluptates repudiandae sint a molestiae
+              recusandae itaque
+              <br /> earum rerum hic tenetur a sapiente delectus ut at aut
+              reiciendis voluptatibus
+              <br /> maiores alias consequatur perferendis doloribus asperiores
+              rerum necessitat
+              <br /> saepeeveniet.
+            </p>
+          </div>
+        </Col>
+        <Col span={12}>
+          <div>
+            <img className="about-image" src={aboutImage} alt="aboutImage" />
           </div>
         </Col>
       </Row>
