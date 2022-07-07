@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+.service-header{
+        margin-top: 5%;
+        margin-left: 17%;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 300;
+        font-size: 27px;
+        border-bottom: 2px solid #005BEA;
+        position: absolute;
+}
+
+.services-row{
+        margin-left: 8%;
+        margin-top: 13%;
+        justify-content: center;
+        text-align: center;
+}
+
+
+.service-desc{
+        font-family: 'Rubik', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        margin-left: 15%;
+        margin-top: 3%;
+}
+
+.section-headers{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+.service-icon{
+        height: 55px;
+        width: 55px;
+        border: 1px solid grey;
+        border-radius: 100px;
+        padding: 7px 9px;
+        margin-bottom: 8px;
+        color: #0000ff;
+}
+
+.service-icon:hover {
+    background: #005BEA;
+    box-shadow: 0px 0px 20px 0px gray;
+    border: 1px solid #005BEA;
+    color: white;
+}
+
+
+
+.services-second-row{
+    margin-left: 8%;
+    margin-top: 4%;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-service{
+        transition: all .5s;
+        transition: 0.3s;
+        animation: ease-in;
+        overflow: hidden;
+}
+
+.container-service:hover{
+        transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 790px) {
+        .services-row{
+                display: block !important;
+                margin-top: 50%;
+                margin-left: 37%;
+        }
+
+        .service-header{
+                margin-top: 40%;
+                margin-left: 37%;
+        }
+
+        .service-desc{
+                text-align: center;
+        }
+
+
+}
+
+
+
+@media screen and (max-width: 620px) {
+        .service-header{
+                margin-top: 50%;
+        }
+
+        .services-row{
+        margin: 5px;
+        margin-top: 65%;
+        margin-left: 40%;
+        }
+
+       .container-service{
+        margin-top: 15%;
+       }
+}
+
+@media screen and (max-width:490px) {
+        .service-header{
+                margin-top: 66%;
+        }      
+
+        .services-row{
+                margin-top: 85%;
+        }
+}
+
+
+
+
+@media screen and (max-width:330px) {
+        .service-header {
+                margin-top: 85%;
+        }
+
+        .services-row {
+                margin-top: 108%;
+                margin-left: 45%;
+        }
+}
+
+
+
+
+@media screen and (max-width:600px) {
+        .services-second-row{
+                display: block !important;
+                margin-left: 40%;
+        }
+}

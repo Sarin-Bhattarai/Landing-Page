@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+/* for first row */
+.feature-header{
+            margin-top: 5%;
+            margin-left: 17%;
+            font-family: 'Rubik', sans-serif;
+            font-weight: 300;
+            font-size: 27px;
+            border-bottom: 2px solid #005BEA;
+            position: absolute;
+}
+
+.feature-first-row{
+            margin-top: 13%;
+            justify-content: center;
+            text-align: center;
+}
+
+.feature__header{
+        font-family: 'Rubik', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        margin-left: 4%;
+}
+
+
+.feature-desc{
+            font-family: 'Rubik', sans-serif;
+            font-weight: 300;
+            font-size: 15px;
+            margin-left: 34%;
+            text-align: left;
+            margin-top: 2%;
+}
+
+.feature-icon{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 8px;
+        color: #0275d8;
+        margin-right: 25%;
+}
+
+.border-image{
+    border: 1px solid #005BEA;
+    width: fit-content;
+    margin-left: 15%;
+    border-radius: 180px;
+    margin-top: -4%;
+    background: #005BEA;
+}
+
+.border-image:hover{
+    box-shadow: 0px 0px 14px 0px black;
+}
+
+.feature-firstImage{
+    margin-top: -8%;
+    box-sizing: border-box;
+    position: relative;
+    transition: all .5s;
+    transition: 0.9s;
+    animation: ease-in;
+}
+
+.feature-firstImage:hover {
+    transform: scale(1.1);
+}
+
+
+/* for second row */
+.feature-second-row{
+            margin-top: 13%;
+            justify-content: center;
+            text-align: center;
+}
+
+.feature-icon-second{
+            height: 50px;
+            width: 50px;
+            margin-bottom: 8px;
+            color: #0275d8;
+            margin-right: 65%;
+}
+
+.feature__header-second{
+            font-family: 'Rubik', sans-serif;
+            font-weight: 400;
+            font-size: 24px;
+            margin-right: 42%;
+}
+
+
+.feature-desc-second{
+                    font-family: 'Rubik', sans-serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    margin-left: 15%;
+                    text-align: left;
+                    margin-top: 2%;
+}
+
+.border-image-second{
+        border: 1px solid #005BEA;
+        width: fit-content;
+        margin-left: 30%;
+        border-radius: 180px;
+        margin-top: -4%;
+        background: #005BEA;
+}
+
+.border-image-second:hover {
+    box-shadow: 0px 0px 14px 0px black;
+}
+
+
+.feature-firstImage-second {
+    margin-top: -8%;
+    box-sizing: border-box;
+    position: relative;
+    transition: all .5s;
+    transition: 0.9s;
+    animation: ease-in;
+}
+
+.feature-firstImage-second:hover {
+    transform: scale(1.1);
+}
