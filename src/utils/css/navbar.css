@@ -103,4 +103,8 @@
         display: block;
     }
 
+    .nav-container{
+        background-color: white;
+    }
+
 }

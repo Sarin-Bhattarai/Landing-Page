@@ -44,23 +44,14 @@ const Features = () => {
         </Col>
       </Row>
 
-      <Row className="feature-second-row">
-        <Col span={12}>
-          <div className="border-image-second">
-            <img
-              className="feature-firstImage-second"
-              src={featureSecImage}
-              alt="computer-with-brush"
-            />
-          </div>
-        </Col>
+      <Row className="feature-first-row">
         <Col span={12}>
           <div>
-            <MdMoving className="feature-icon-second" />
+            <MdMoving className="feature-icon" />
           </div>
           <div>
-            <h1 className="feature__header-second">Strategy Solutions</h1>
-            <p className="feature-desc-second">
+            <h1 className="feature__header">Strategy Solutions</h1>
+            <p className="feature-desc">
               Itaque earum rerum hic tenetur sapiente delectut reiciendis
               voluptatibus
               <br /> perspiciatis unde omnis iste natus error sit maiores alias
@@ -72,6 +63,15 @@ const Features = () => {
               impedit
               <br /> minusidquod maxime placeat facere possimus.
             </p>
+          </div>
+        </Col>
+        <Col span={12}>
+          <div className="border-image">
+            <img
+              className="feature-firstImage"
+              src={featureSecImage}
+              alt="computer-with-apps"
+            />
           </div>
         </Col>
       </Row>
