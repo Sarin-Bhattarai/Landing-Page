@@ -7,7 +7,7 @@ const Pricing = () => {
     <>
       <h1 className="pricing_header">OUR PRICING</h1>
       <Row className="pricing-row">
-        <Col span={6}>
+        <Col className="col-price-1" span={6}>
           <section className="first-section">
             <div className="card-header">
               <h3 className="header-text">Basic</h3>
@@ -19,7 +19,7 @@ const Pricing = () => {
             <div>
               <p className="card-desc">Bandwidth: 1GB</p>
               <p className="card-desc">Onlinespace: 100MB</p>
-              <p className="card-desc">Support: No</p>
+              <p className="card-desc">Support: NO</p>
               <p className="card-desc">Domain: 05</p>
               <p className="card-desc">Hidden Fees: No</p>
               <br />
@@ -29,7 +29,7 @@ const Pricing = () => {
             </div>
           </section>
         </Col>
-        <Col span={6}>
+        <Col className="col-price-1" span={6}>
           <section className="first-section">
             <div className="card-header">
               <h3 className="header-text">Popular</h3>
@@ -39,10 +39,10 @@ const Pricing = () => {
             </div>
             <hr />
             <div>
-              <p className="card-desc">Bandwidth: 1GB</p>
-              <p className="card-desc">Onlinespace: 100MB</p>
-              <p className="card-desc">Support: No</p>
-              <p className="card-desc">Domain: 05</p>
+              <p className="card-desc">Bandwidth: 2GB</p>
+              <p className="card-desc">Onlinespace: 500MB</p>
+              <p className="card-desc">Support: YES</p>
+              <p className="card-desc">Domain: 10</p>
               <p className="card-desc">Hidden Fees: No</p>
               <br />
               <a className="pricing_link" href="/#">
@@ -51,7 +51,7 @@ const Pricing = () => {
             </div>
           </section>
         </Col>
-        <Col span={6}>
+        <Col className="col-price-1" span={6}>
           <section className="first-section">
             <div className="card-header">
               <h3 className="header-text">Advance</h3>
@@ -61,10 +61,10 @@ const Pricing = () => {
             </div>
             <hr />
             <div>
-              <p className="card-desc">Bandwidth: 1GB</p>
-              <p className="card-desc">Onlinespace: 100MB</p>
-              <p className="card-desc">Support: No</p>
-              <p className="card-desc">Domain: 05</p>
+              <p className="card-desc">Bandwidth: 3GB</p>
+              <p className="card-desc">Onlinespace: 1GB</p>
+              <p className="card-desc">Support: YES</p>
+              <p className="card-desc">Domain: 15</p>
               <p className="card-desc">Hidden Fees: No</p>
               <br />
               <a className="pricing_link" href="/#">
@@ -73,7 +73,7 @@ const Pricing = () => {
             </div>
           </section>
         </Col>
-        <Col span={6}>
+        <Col className="col-price-1" span={6}>
           <section className="first-section">
             <div className="card-header">
               <h3 className="header-text">Premium</h3>
@@ -83,11 +83,11 @@ const Pricing = () => {
             </div>
             <hr />
             <div>
-              <p className="card-desc">Bandwidth: 1GB</p>
-              <p className="card-desc">Onlinespace: 100MB</p>
-              <p className="card-desc">Support: No</p>
-              <p className="card-desc">Domain: 05</p>
-              <p className="card-desc">Hidden Fees: No</p>
+              <p className="card-desc">Bandwidth: 2GB</p>
+              <p className="card-desc">Onlinespace: 1GB</p>
+              <p className="card-desc">Support: YES</p>
+              <p className="card-desc">Domain: 20</p>
+              <p className="card-desc">Hidden Fees: Yes</p>
               <br />
               <a className="pricing_link" href="/#">
                 BUY NOW

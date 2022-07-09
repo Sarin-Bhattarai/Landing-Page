@@ -1,0 +1,22 @@
+
+.client-slider{
+    margin-top: 10%;
+    height: 550px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../assets/sliderimage.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.client-header{
+      margin-top: 4%;
+      margin-left: 15%;   
+      font-family: 'Rubik',sans-serif;
+      font-weight: 300;
+      font-size: 27px;
+      border-bottom: 2px solid white;
+      position:relative;
+      width: fit-content;
+      color: white;
+}
