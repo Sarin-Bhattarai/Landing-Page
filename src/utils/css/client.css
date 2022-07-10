@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 .client-slider{
     margin-top: 10%;
@@ -19,4 +20,59 @@
       position:relative;
       width: fit-content;
       color: white;
+}
+
+.client-card{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 7px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    width: 35%;
+    height: 27vh;
+    margin-top: 4%;
+    margin-left: 30%;
+}
+
+.client-card-header{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.client-desc{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    margin-left: 3%;
+    margin-top: 5%;
+    opacity: 0.8;
+}
+
+.avatar-header{
+    margin-left: 55%;
+    margin-top: 1%;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    border-left: 2px solid orangered;
+}
+
+.avatar-header-2{
+    margin-left: 57%;
+    color: white;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    margin-top: -1%;
+}
+
+.avatar-header-2-2 {
+    margin-left: 56%;
+    color: white;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    margin-top: -1%;
 }
