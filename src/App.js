@@ -47,9 +47,13 @@ const App = () => {
           <Blog />
           <Contact />
         </Content>
+        <br />
+        <br />
         <Footer
           style={{
             textAlign: "center",
+            color: "white",
+            background: "#212529",
           }}
         >
           App Technologies ©2022 Created by App Tech
