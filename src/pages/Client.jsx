@@ -35,6 +35,7 @@ const Client = () => {
               <h4 className="avatar-header-2">Web Designer</h4>
             </div>
             <Avatar
+              className="client-figure"
               style={{
                 marginLeft: "63%",
                 marginTop: "-5%",
@@ -68,6 +69,7 @@ const Client = () => {
               <h4 className="avatar-header-2-2">UI/UX Designer</h4>
             </div>
             <Avatar
+              className="client-figure"
               style={{
                 marginLeft: "63%",
                 marginTop: "-5%",
@@ -101,6 +103,7 @@ const Client = () => {
               <h4 className="avatar-header-2-2">PHP Developer</h4>
             </div>
             <Avatar
+              className="client-figure"
               style={{
                 marginLeft: "63%",
                 marginTop: "-5%",
@@ -134,6 +137,7 @@ const Client = () => {
               <h4 className="avatar-header-2-2">Graphic Designer</h4>
             </div>
             <Avatar
+              className="client-figure"
               style={{
                 marginLeft: "63%",
                 marginTop: "-5%",
