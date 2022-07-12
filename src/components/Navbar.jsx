@@ -1,40 +1,26 @@
-import React, { useEffect, useState } from "react";
+import React, { useRef } from "react";
 import "../utils/css/navbar.css";
-import { MenuOutlined } from "@ant-design/icons";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = useState(false);
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const navRef = useRef();
 
-  const toggleNav = () => {
-    setToggleMenu(!toggleMenu);
+  const showNavBbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
   };
 
-  useEffect(() => {
-    const changeWidth = () => {
-      setScreenWidth(window.innerWidth);
-    };
-
-    window.addEventListener("resize", changeWidth);
-
-    return () => {
-      window.removeEventListener("resize", changeWidth);
-    };
-  }, []);
-
   return (
-    <nav>
-      {/* first part */}
-      <a href="/">
-        <h2 className="nav-logo">
-          <span>A</span>pp
-          <span>T</span>echnologies
-        </h2>
-      </a>
-
-      {/* second part */}
-
-      {(toggleMenu || screenWidth > 890) && (
+    <>
+      {/* change */}
+      <nav ref={navRef}>
+        {/* first part */}
+        <a href="/">
+          <h2 className="nav-logo">
+            <span>A</span>pp
+            <span>T</span>echnologies
+          </h2>
+        </a>
+        {/* second part */}
         <ul>
           <li>
             <a href="/">HOME</a>
@@ -61,11 +47,15 @@ const Navbar = () => {
             <a href="/contact">CONTACT</a>
           </li>
         </ul>
-      )}
-      <span onClick={toggleNav} className="btn">
-        <MenuOutlined />
-      </span>
-    </nav>
+        <button className="nav-btn nav-close-btn" onClick={showNavBbar}>
+          <FaTimes />
+        </button>
+      </nav>
+
+      <button className="nav-btn" onClick={showNavBbar}>
+        <FaBars />
+      </button>
+    </>
   );
 };
 
