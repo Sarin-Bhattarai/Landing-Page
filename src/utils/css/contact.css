@@ -49,19 +49,73 @@
     margin: -6px;
 }
 
+.contact-row-second {
+    margin-left: 17%;
+    margin-top: 8%;
+}
+
+.footer-header-row{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+.f-h-r-desc{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 0.8;
+    line-height: 28px;
+}
+
+.ul-contact{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    list-style-type: none;
+    margin-left: -13%;
+    opacity: 0.8;
+    line-height: 28px;
+}
+
+li a{
+    color: black ;
+}
+
+li a:hover {
+    color: #FF8700;
+    text-decoration: underline;
+}
+
+
 @media screen and (max-width: 1130px) {
     .contact-row {
         display: block !important;
     }
+    .contact-form{
+        display: block !important;
+    }
 
-         .span-right-1 {
-           margin-top: 20%;
-           margin-left: 20%;
-         }
-           .span-right-2 {
-               margin-top: 10%;
-               margin-left: 20%;
-           }
+    .input-contact{
+        width: 100% !important;
+    }
+
+    .span-right-1 {
+        margin-top: 20%;
+        margin-left: 20%;
+    }
+
+    .span-right-2 {
+        margin-top: 10%;
+        margin-left: 20%;
+}
+}
+
+@media screen and (max-width: 928px) {
+
+    .contact-first-contact{
+        display: block !important;
+    }
+  
 }
 
 @media screen and (max-width: 585px) {
@@ -74,5 +128,43 @@
     .span-right-2 {
         margin-top: 20%;
         margin-left: 1%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .contact-row-second{
+        display: block !important;
+    }
+
+    .res-col-2{
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+
+    .f-h-r-desc{
+        white-space: nowrap;
+        margin-left: -29%;
+    }
+
+    .ul-contact{
+        margin-left: -22%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+
+    .res-col-2 {
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    .f-h-r-desc {
+        white-space: nowrap;
+        margin-left: -29%;
+    }
+
+    .ul-contact {
+        margin-left: -39%;
     }
 }

@@ -39,6 +39,7 @@ const Contact = () => {
                 ]}
               >
                 <Input
+                  className="input-contact"
                   placeholder="Name"
                   style={{
                     width: "130%",
@@ -58,6 +59,7 @@ const Contact = () => {
                 ]}
               >
                 <Input
+                  className="input-contact"
                   placeholder="Email"
                   style={{
                     width: "130%",
@@ -103,7 +105,7 @@ const Contact = () => {
                 border: "2px solid #999999",
                 borderRadius: 20,
                 padding: "5px 5px",
-                color: "purple",
+                color: "black",
               }}
             />
             <p className="p-p-p">Call: 012-345-6789</p>
@@ -115,7 +117,7 @@ const Contact = () => {
                 border: "2px solid #999999",
                 borderRadius: 20,
                 padding: "6px 6px",
-                color: "purple",
+                color: "black",
               }}
             />
 
@@ -128,7 +130,7 @@ const Contact = () => {
                 border: "2px solid #999999",
                 borderRadius: 20,
                 padding: "6px 6px",
-                color: "purple",
+                color: "black",
               }}
             />
 
@@ -178,6 +180,65 @@ const Contact = () => {
               />
             </div>
           </div>
+        </Col>
+      </Row>
+
+      <Row className="contact-row-second">
+        <Col className="res-col-2" span={6}>
+          <h2 className="footer-header-row">ABOUT US</h2>
+          <p className="f-h-r-desc">
+            Sed ut perspiciatis unde omnis iste
+            <br /> natus error sit voluptatem that is
+            <br /> doloremque totam that was.
+          </p>
+        </Col>
+        <Col className="res-col-2" span={6}>
+          <h2 className="footer-header-row">COMPANY</h2>
+          <ul className="ul-contact">
+            <li>
+              <a href="/#"> Monitoring Grader</a>
+            </li>
+            <li>
+              <a href="/#"> Job Opening</a>
+            </li>
+            <li>
+              <a href="/#"> Customers</a>
+            </li>
+            <li>
+              <a href="/#"> Privacy</a>
+            </li>
+          </ul>
+        </Col>
+        <Col className="res-col-2" span={6}>
+          <h2 className="footer-header-row">SUPPORT</h2>
+          <ul className="ul-contact">
+            <li>
+              <a href="/#"> Get Started </a>
+            </li>
+            <li>
+              <a href="/#"> Blog </a>
+            </li>
+            <li>
+              <a href="/#"> Knowledge Base</a>
+            </li>
+          </ul>
+        </Col>
+        <Col className="res-col-2" span={6}>
+          <h2 className="footer-header-row">LEGAL</h2>
+          <ul className="ul-contact">
+            <li>
+              <a href="/#"> Terms & Conditions</a>
+            </li>
+            <li>
+              <a href="/#"> Privacy Policy </a>
+            </li>
+            <li>
+              <a href="/#"> Customers</a>
+            </li>
+            <li>
+              <a href="/#"> Pricing</a>
+            </li>
+          </ul>
         </Col>
       </Row>
     </>
