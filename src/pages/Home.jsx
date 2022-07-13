@@ -13,7 +13,7 @@ const Home = () => {
         marginTop: "4%",
       }}
     >
-      <Col span={12}>
+      <Col className="home-col-1" span={12}>
         <div className="home-first-row">
           <h1
             style={{

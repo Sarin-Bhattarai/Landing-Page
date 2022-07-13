@@ -27,10 +27,14 @@
     font-size: 13px;
 }
 
-
 .nav-container a {
     text-decoration: none;
     color: white;
+}
+
+.nav-container a.active {
+    text-decoration: underline;
+    color: #ffa200;
 }
 
 .nav-container a:hover {
@@ -53,6 +57,7 @@
     .nav-btn {
         visibility: visible;
         opacity: 1;
+        margin-left: 98%;
     }
 
     nav {
@@ -84,6 +89,38 @@
         margin-top: -3% !important;
     }
 }
+
+/* screen set for big inch desktops */
+
+@media screen and (min-width: 1600px) {
+.nav-container ul {
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
+        position: relative;
+        left: 660px;
+        margin: 0px 35px;
+        padding: 4px 0px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .nav-container ul {
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
+        position: relative;
+        left: 990px;
+        margin: 0px 35px;
+        padding: 4px 0px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 13px;
+    }
+}
+
+/* setting for big inches desktop ends here */
 
 @media screen and (max-width: 1286px) {
     .nav-container li {

@@ -43,7 +43,6 @@
 
 .service-icon:hover {
     background: #005BEA;
-    box-shadow: 0px 0px 20px 0px gray;
     border: 1px solid #005BEA;
     color: white;
 }

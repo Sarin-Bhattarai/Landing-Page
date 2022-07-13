@@ -23,7 +23,9 @@ const Navbar = () => {
         {/* second part */}
         <ul>
           <li>
-            <a href="/">HOME</a>
+            <a className="active" href="/">
+              HOME
+            </a>
           </li>
           <li>
             <a href="/about">ABOUT</a>

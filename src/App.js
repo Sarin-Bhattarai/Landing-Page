@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Layout } from "antd";
+import { Layout, BackTop } from "antd";
+import { UpOutlined } from "@ant-design/icons";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
@@ -23,6 +24,17 @@ const App = () => {
   };
   window.addEventListener("scroll", changeBackground);
   //scroll logic ends here
+
+  const style = {
+    height: 40,
+    width: 40,
+    lineHeight: "40px",
+    borderRadius: 4,
+    backgroundColor: "#0000ff",
+    color: "white",
+    textAlign: "center",
+    fontSize: 15,
+  };
   return (
     <>
       <Layout className="layout">
@@ -59,6 +71,11 @@ const App = () => {
           App Technologies ©2022 Created by App Tech
         </Footer>
       </Layout>
+      <BackTop>
+        <div style={style}>
+          <UpOutlined />
+        </div>
+      </BackTop>
     </>
   );
 };

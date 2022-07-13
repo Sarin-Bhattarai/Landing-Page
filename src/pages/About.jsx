@@ -11,12 +11,12 @@ const About = () => {
     <>
       <h3 className="section-header">ABOUT US</h3>
       <Row className="about-row">
-        <Col span={8}>
+        <Col className="about-about-col" span={8}>
           <div className="icon-1">
             <AiOutlineBulb className="icon-img" />
           </div>
-          <div>
-            <h1 className="about-headers">Creative Design</h1>
+          <h1 className="about-headers">Creative Design</h1>
+          <div className="p-about-desc">
             <p className="about-desc">
               Nemo enim ipsam voluptatem quia voluptas sit
               <br /> aspernatur at aut odit aut fugit sed quia
@@ -24,12 +24,12 @@ const About = () => {
             </p>
           </div>
         </Col>
-        <Col span={8}>
+        <Col className="about-about-col" span={8}>
           <div className="icon-2">
             <BiShieldAlt2 className="icon-img" />
           </div>
-          <div>
-            <h1 className="about-headers">Strategy Solutions</h1>
+          <h1 className="about-headers">Strategy Solutions</h1>
+          <div className="p-about-desc">
             <p className="about-desc">
               Nemo enim ipsam voluptatem quia voluptas sit
               <br /> aspernatur at aut odit aut fugit sed quia
@@ -37,12 +37,12 @@ const About = () => {
             </p>
           </div>
         </Col>
-        <Col span={8}>
+        <Col className="about-about-col" span={8}>
           <div className="icon-3">
             <IoOpenOutline className="icon-img" />
           </div>
-          <div>
-            <h1 className="about-headers">Dynamic Growth</h1>
+          <h1 className="about-headers">Dynamic Growth</h1>
+          <div className="p-about-desc">
             <p className="about-desc">
               Nemo enim ipsam voluptatem quia voluptas sit
               <br /> aspernatur at aut odit aut fugit sed quia
@@ -53,11 +53,13 @@ const About = () => {
       </Row>
       <Row className="about-row-second">
         <Col span={12}>
-          <div>
+          <div className="b-business-header">
             <h1 className="business-header">
               Performancect Solution For Small
               <br /> Businesses
             </h1>
+          </div>
+          <div className="p-second-desc">
             <p className="about-second-desc">
               Temporibus autem quibusdam a aut officiis debitis rerum
               necessitatibus
@@ -72,7 +74,7 @@ const About = () => {
           </div>
         </Col>
         <Col span={12}>
-          <div>
+          <div className="i-about-image">
             <img className="about-image" src={aboutImage} alt="aboutImage" />
           </div>
         </Col>

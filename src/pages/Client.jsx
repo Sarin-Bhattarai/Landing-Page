@@ -4,6 +4,7 @@ import "../utils/css/client.css";
 import avatar1 from "../utils/assets/avatar1.jpg";
 import avatar2 from "../utils/assets/avatar2.jpg";
 import avatar3 from "../utils/assets/avatar3.jpg";
+import avatar4 from "../utils/assets/avatar4.jpg";
 
 const Client = () => {
   const onChange = (currentSlide) => {
@@ -144,7 +145,7 @@ const Client = () => {
               }}
               src={
                 <Image
-                  src={avatar1}
+                  src={avatar4}
                   style={{
                     width: 48,
                   }}
