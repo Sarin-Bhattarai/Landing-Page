@@ -15,8 +15,8 @@ const Services = () => {
           <div className="ss-1">
             <IoServer className="service-icon" />
           </div>
+          <h1 className="section-headers">Awesome Support</h1>
           <div className="ss-2">
-            <h1 className="section-headers">Awesome Support</h1>
             <p className="service-desc">
               Sed ut perspiciatis unde sit omnise iste natus
               <br /> voluptatem site accusantium doloremque

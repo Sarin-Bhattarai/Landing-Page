@@ -17,8 +17,8 @@ const Features = () => {
           <div>
             <FaReact className="feature-icon" />
           </div>
-          <div>
-            <h1 className="feature__header">Marketing Performance</h1>
+          <h1 className="feature__header">Marketing Performance</h1>
+          <div className="f-feature-desc">
             <p className="feature-desc">
               Itaque earum rerum hic tenetur sapiente delectut reiciendis
               voluptatibus
@@ -49,8 +49,8 @@ const Features = () => {
           <div>
             <MdMoving className="feature-icon" />
           </div>
-          <div>
-            <h1 className="feature__header">Strategy Solutions</h1>
+          <h1 className="feature__header">Strategy Solutions</h1>
+          <div className="f-feature-desc">
             <p className="feature-desc">
               Itaque earum rerum hic tenetur sapiente delectut reiciendis
               voluptatibus
@@ -81,8 +81,8 @@ const Features = () => {
           <div>
             <BsClipboardData className="feature-icon" />
           </div>
-          <div>
-            <h1 className="feature__header">Marketing Performance</h1>
+          <h1 className="feature__header">Marketing Performance</h1>
+          <div className="f-feature-desc">
             <p className="feature-desc">
               Itaque earum rerum hic tenetur sapiente delectut reiciendis
               voluptatibus

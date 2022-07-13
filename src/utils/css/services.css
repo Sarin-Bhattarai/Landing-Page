@@ -84,6 +84,15 @@
                 text-align: center;
         }
 
+        .services-second-row{
+                display: block !important;
+                margin-left: 40%;
+        }
+
+        .ss-2{
+         /* width: 290% !important; */
+        }
+
 
 }
 
@@ -126,15 +135,5 @@
         .services-row {
                 margin-top: 108%;
                 margin-left: 45%;
-        }
-}
-
-
-
-
-@media screen and (max-width:600px) {
-        .services-second-row{
-                display: block !important;
-                margin-left: 40%;
         }
 }

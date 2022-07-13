@@ -95,6 +95,25 @@
         position: relative;
         right: 70px;
     }
+
+    .f-feature-desc {
+        width: 220% !important;
+        position: relative;
+        right: 290px;
+          }
+}
+
+@media screen and (max-width:860px) {
+    .f-feature-desc {
+        width: 220% !important;
+        position: relative;
+        right: 220px;
+    }
+
+    .border-image {
+        position: relative;
+        right: 90px;
+    }
 }
 
 @media screen and (max-width:730px) {
