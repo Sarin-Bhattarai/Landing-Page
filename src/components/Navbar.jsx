@@ -13,9 +13,7 @@ const Navbar = () => {
 
   return (
     <>
-      {/* change */}
       <nav ref={navRef}>
-        {/* first part */}
         <a href="/">
           <img className="logo-img" src={logo} alt="logo" />
         </a>
