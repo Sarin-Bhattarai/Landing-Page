@@ -49,7 +49,7 @@ const Features = () => {
           <div>
             <MdMoving className="feature-icon" />
           </div>
-          <h1 className="feature__header">Strategy Solutions</h1>
+          <h1 className="feature__header-2">Strategy Solutions</h1>
           <div className="f-feature-desc">
             <p className="feature-desc">
               Itaque earum rerum hic tenetur sapiente delectut reiciendis

@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import "../utils/css/navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from "../utils/assets/logo.png";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const navRef = useRef();
@@ -15,38 +17,49 @@ const Navbar = () => {
       <nav ref={navRef}>
         {/* first part */}
         <a href="/">
-          <h2 className="nav-logo">
-            <span>A</span>pp
-            <span>T</span>echnologies
-          </h2>
+          <img className="logo-img" src={logo} alt="logo" />
         </a>
         {/* second part */}
         <ul>
           <li>
-            <a className="active" href="/">
+            <Link activeClass="active" smooth spy to="home">
               HOME
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/about">ABOUT</a>
+            <Link activeClass="active" smooth spy to="about">
+              ABOUT
+            </Link>
           </li>
           <li>
-            <a href="/services">SERVICES</a>
+            <Link activeClass="active" smooth spy to="services">
+              SERVICES
+            </Link>
           </li>
           <li>
-            <a href="/features">FEATURES</a>
+            <Link activeClass="active" smooth spy to="features">
+              FEATURES
+            </Link>
           </li>
           <li>
-            <a href="/pricing">PRICING</a>
+            <Link activeClass="active" smooth spy to="pricing">
+              PRICING
+            </Link>
           </li>
           <li>
-            <a href="/clients">CLIENTS</a>
+            <Link activeClass="active" smooth spy to="clients">
+              CLIENTS
+            </Link>
           </li>
           <li>
-            <a href="/blog">BLOG</a>
+            <Link activeClass="active" smooth spy to="blog">
+              BLOG
+            </Link>
           </li>
           <li>
-            <a href="/contact">CONTACT</a>
+            <Link activeClass="active" smooth spy to="contact">
+              CONTACT
+            </Link>
           </li>
         </ul>
         <button className="nav-btn nav-close-btn" onClick={showNavBbar}>

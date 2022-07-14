@@ -98,6 +98,40 @@
     }
 }
 
+@media screen and (max-width:975px) {
+    .client-card{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .client-card {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .client-card {
+        width: 65%;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width:475px) {
+    .client-card {
+        width: 75%;
+        margin-left: 10%;
+        height: 18vh;
+    }
+}
+
+@media screen and (max-width:395px) {
+    .client-card {
+        width: 90%;
+        margin-left: 3%;
+        height: 18vh;
+    }
+}
 
 @media screen and (max-width:675px) {
     .client-figure {
@@ -129,6 +163,7 @@
     font-size: 11px;
    }
 }
+
 
 @media screen and (max-width:385px) {
     .client-figure {

@@ -10,9 +10,10 @@
     background: black;
 }
 
-.nav-logo {
-    color: white;
-    float: left;
+
+.logo-img{
+    width: 20%;
+    height: 5vh;
 }
 
 .nav-container ul {
@@ -20,11 +21,12 @@
     display: flex;
     gap: 1.5rem;
     position: relative;
-    left: 520px;
+    left: 600px;
     margin: 0px 35px;
     padding: 4px 0px;
     font-family: 'Rubik', sans-serif;
     font-size: 13px;
+    margin-top: -10%;
 }
 
 .nav-container a {
@@ -36,6 +38,12 @@
     text-decoration: underline;
     color: #ffa200;
 }
+/* change */
+.active{
+text-decoration: underline;
+color: #ffa200;
+}
+/* end */
 
 .nav-container a:hover {
     text-decoration: underline;
@@ -122,37 +130,23 @@
 
 /* setting for big inches desktop ends here */
 
-@media screen and (max-width: 1286px) {
-    .nav-container li {
-        position: relative;
-        right: 220px;
+    @media screen and (max-width: 1286px) {
+        .nav-container li {
+            position: relative;
+            right: 180px;
+        }
     }
-}
 
-@media screen and (max-width: 1115px) {
-    .nav-container li {
-        position: relative;
-        right: 290px;
+    @media screen and (max-width: 1115px) {
+        .nav-container li {
+            position: relative;
+            right: 290px;
+        }
     }
-}
 
 @media screen and (max-width: 1040px) {
     .nav-container li {
         position: relative;
         right: 350px
-    }
-}
-
-@media screen and (max-width: 980px) {
-    .nav-container li {
-        position: relative;
-        right: 420px
-    }
-}
-
-@media screen and (max-width: 911px) {
-    .nav-container li {
-        position: relative;
-        right: 440px
     }
 }
