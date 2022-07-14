@@ -17,6 +17,7 @@ const Contact = () => {
   return (
     <>
       <h3 className="contact-header">GET IN TOUCH</h3>
+      <br />
       <Row className="contact-row">
         <Col className="span-right-1" span={12}>
           <Form

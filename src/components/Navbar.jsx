@@ -13,10 +13,10 @@ const Navbar = () => {
 
   return (
     <>
+      <a href="/">
+        <img className="logo-img" src={logo} alt="logo" />
+      </a>
       <nav ref={navRef}>
-        <a href="/">
-          <img className="logo-img" src={logo} alt="logo" />
-        </a>
         {/* second part */}
         <ul>
           <li>

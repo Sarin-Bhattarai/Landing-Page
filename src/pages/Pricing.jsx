@@ -6,6 +6,7 @@ const Pricing = () => {
   return (
     <>
       <h1 className="pricing_header">OUR PRICING</h1>
+      <br />
       <Row className="pricing-row">
         <Col className="col-price-1" span={6}>
           <section className="first-section">

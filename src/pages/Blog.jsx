@@ -9,6 +9,7 @@ const Blog = () => {
   return (
     <>
       <h1 className="blog-header">THE BLOG</h1>
+      <br />
       <Row className="blog-row">
         <Col className="row-col-1" span={8}>
           <Badge.Ribbon text="1 Jan 2019" placement="start">

@@ -10,6 +10,7 @@ const About = () => {
   return (
     <>
       <h3 className="section-header">ABOUT US</h3>
+      <br />
       <Row className="about-row">
         <Col className="about-about-col" span={8}>
           <div className="icon-1">

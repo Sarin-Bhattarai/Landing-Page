@@ -76,8 +76,8 @@
         }
 
         .service-header{
-                margin-top: 40%;
                 margin-left: 37%;
+                margin-top: -10%;
         }
 
         .service-desc{
@@ -86,14 +86,16 @@
 
         .services-second-row{
                 display: block !important;
-                margin-left: 40%;
+                margin-left: 37%;
         }
 
-        .ss-2{
-         /* width: 290% !important; */
+        .container-service{
+                margin-top: 12%;
         }
 
-
+        .section-headers{
+         text-decoration: underline;
+        }
 }
 
 
