@@ -96,7 +96,7 @@
 
 @media screen and (max-width: 620px) {
   .service-header {
-    margin-top: 50%;
+    margin-top: -15%;
   }
 
   .services-row {
@@ -112,7 +112,7 @@
 
 @media screen and (max-width: 490px) {
   .service-header {
-    margin-top: 66%;
+    margin-top: -20%;
   }
 
   .services-row {
@@ -122,7 +122,7 @@
 
 @media screen and (max-width: 330px) {
   .service-header {
-    margin-top: 85%;
+    margin-top: -30%;
   }
 
   .services-row {

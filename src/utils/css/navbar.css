@@ -96,6 +96,86 @@
   }
 }
 
+@media only screen and (max-width: 890px) {
+  nav ul {
+    display: block !important;
+    margin-left: -28% !important;
+    margin-top: -1% !important;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  nav ul {
+    display: block !important;
+    margin-left: -30% !important;
+    margin-top: -1% !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  nav ul {
+    display: block !important;
+    margin-left: -32% !important;
+    margin-top: -1% !important;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  nav ul {
+    display: block !important;
+    margin-left: -34% !important;
+    margin-top: -1% !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  nav ul {
+    display: block !important;
+    margin-left: -36% !important;
+    margin-top: -1% !important;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  nav ul {
+    display: block !important;
+    margin-left: -38% !important;
+    margin-top: -1% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav ul {
+    display: block !important;
+    margin-left: -42% !important;
+    margin-top: -1% !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  nav ul {
+    display: block !important;
+    margin-left: -46% !important;
+    margin-top: -1% !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  nav ul {
+    display: block !important;
+    margin-left: -52% !important;
+    margin-top: -1% !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  nav ul {
+    display: block !important;
+    margin-left: -58% !important;
+    margin-top: -1% !important;
+  }
+}
+
 /* screen set for big inch desktops */
 
 @media screen and (min-width: 1600px) {
