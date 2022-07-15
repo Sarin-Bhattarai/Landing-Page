@@ -1,29 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 
 .contact-header {
-    margin-top: 5%;
-    margin-left: 17%;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 300;
-    font-size: 27px;
-    border-bottom: 2px solid #005BEA;
-    position: absolute;
+  margin-top: 5%;
+  margin-left: 17%;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 27px;
+  border-bottom: 2px solid #005bea;
+  position: absolute;
 }
 
 .contact-row {
-    margin-left: 17%;
-    margin-top: 10%;
+  margin-left: 17%;
+  margin-top: 10%;
 }
 
 .contact-form {
-    display:flex ;
+  display: flex;
 }
 
 .contact-first-contact {
-    display: flex;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+  display: flex;
+  margin-bottom: 15px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
 }
 
 .p-p-p {
@@ -33,189 +33,166 @@
 }
 
 .icon-footer {
-    display: flex;
+  display: flex;
 }
 
 .icon-hover:hover {
-    border: 1px solid #005BEA;
-    height: 30px;
-    width: 30px;
-    border-radius: 40px;
-    background-color:#005BEA;
-    color: white;
-    padding-left: 4px;
-    padding-top: 4px;
-    box-shadow: 0px 0px 8px 0px gray;
-    margin: -6px;
+  border: 1px solid #005bea;
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+  background-color: #005bea;
+  color: white;
+  padding-left: 4px;
+  padding-top: 4px;
+  box-shadow: 0px 0px 8px 0px gray;
+  margin: -6px;
 }
 
 .contact-row-second {
-    margin-left: 17%;
-    margin-top: 8%;
+  margin-left: 17%;
+  margin-top: 8%;
 }
 
-.footer-header-row{
-    font-family: 'Rubik', sans-serif;
-    font-size: 16px;
+.footer-header-row {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
 }
 
-.f-h-r-desc{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    opacity: 0.8;
-    line-height: 28px;
+.f-h-r-desc {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  opacity: 0.8;
+  line-height: 28px;
 }
 
-.ul-contact{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    list-style-type: none;
-    margin-left: -13%;
-    opacity: 0.8;
-    line-height: 28px;
+.ul-contact {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  list-style-type: none;
+  margin-left: -13%;
+  opacity: 0.8;
+  line-height: 28px;
 }
 
-li a{
-    color: black ;
+li a {
+  color: black;
 }
 
 li a:hover {
-    color: #FF8700;
-    text-decoration: underline;
+  color: #ff8700;
+  text-decoration: underline;
 }
 
+.input-contact {
+  min-width: 300px !important;
+}
+
+.subject-to {
+  min-width: 300px !important;
+}
 
 @media screen and (max-width: 1130px) {
-    .contact-row {
-        display: block !important;
-    }
-    .contact-form{
-        display: block !important;
-    }
+  .contact-row {
+    display: block !important;
+  }
+  .contact-form {
+    display: block !important;
+  }
 
-    .input-contact{
-        width: 100% !important;
-    }
+  .span-right-1 {
+    margin-top: 16%;
+    margin-left: 24%;
+  }
 
-    .span-right-1 {
-        margin-top: 16%;
-        margin-left: 20%;
-    }
+  .span-right-2 {
+    margin-top: 10%;
+    margin-left: 24%;
+  }
 
-    .span-right-2 {
-        margin-top: 10%;
-        margin-left: 20%;
+  .contact-header {
+    margin-left: 42%;
+  }
 }
 
-    .contact-header{
-        margin-left: 38%;
-    }
+@media screen and (max-width: 800px) {
+  .contact-header {
+    margin-left: 37%;
+  }
+
+  .span-right-1 {
+    margin-top: 16%;
+    margin-left: 14%;
+  }
+
+  .span-right-2 {
+    margin-top: 10%;
+    margin-left: 14%;
+  }
+
+  .contact-row-second {
+    margin-left: 5%;
+  }
 }
 
-@media screen and (max-width: 928px) {
+@media screen and (max-width: 540px) {
+  .contact-header {
+    margin-left: 25%;
+  }
 
-    .contact-first-contact{
-        display: block !important;
-    }
-  
+  .span-right-1 {
+    margin-top: 16%;
+    margin-left: -2%;
+  }
+
+  .span-right-2 {
+    margin-top: 10%;
+    margin-left: -2%;
+  }
+
+  .contact-row-second {
+    margin-left: -10%;
+  }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 400px) {
+  .contact-header {
+    margin-left: 20%;
+  }
 
-    .span-right-1 {
-            margin-top: 16%;
-            margin-left: 22%;
-        }
-    
-        .span-right-2 {
-            margin-top: 10%;
-            margin-left: 22%;
-        }
+  .span-right-1 {
+    margin-top: 24%;
+    margin-left: -13%;
+  }
 
-        .input-contact{
-            width: 140% !important;
-            margin-left: -22% !important;
-        }
+  .span-right-2 {
+    margin-top: 15%;
+    margin-left: -13%;
+  }
 
-        .subject-to{
-            width: 140% !important;
-            margin-left: -22% !important;
-        }
-}
-
-@media screen and (max-width: 735px) {
-
-    .span-right-1 {
-        margin-top: 16%;
-        margin-left: 22%;
-    }
-
-    .span-right-2 {
-        margin-top: 10%;
-        margin-left: 22%;
-    }
-
-    .input-contact {
-        width: 160% !important;
-        margin-left: -22% !important;
-    }
-
-    .subject-to {
-        width: 160% !important;
-        margin-left: -22% !important;
-    }
-}
-
-
-@media screen and (max-width: 585px) {
-
-    .span-right-1 {
-        margin-top: 30%;
-        margin-left: 1%;
-    }
-
-    .span-right-2 {
-        margin-top: 20%;
-        margin-left: 1%;
-    }
+  .contact-row-second {
+    margin-left: -10%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
+  .contact-row-second {
+    display: block !important;
+  }
 
-    .contact-row-second{
-        display: block !important;
-    }
+  .res-col-2 {
+    margin-left: 30%;
+    margin-top: 5%;
+  }
 
-    .res-col-2{
-        margin-left: 30%;
-        margin-top: 5%;
-    }
+  .f-h-r-desc {
+    white-space: nowrap;
+    margin-left: -29%;
+  }
 
-    .f-h-r-desc{
-        white-space: nowrap;
-        margin-left: -29%;
-    }
-
-    .ul-contact{
-        margin-left: -22%;
-    }
-}
-
-@media screen and (max-width: 475px) {
-
-    .res-col-2 {
-        margin-left: 10%;
-        margin-top: 5%;
-    }
-
-    .f-h-r-desc {
-        white-space: nowrap;
-        margin-left: -29%;
-    }
-
-    .ul-contact {
-        margin-left: -39%;
-    }
+  .ul-contact {
+    margin-left: -22%;
+  }
 }

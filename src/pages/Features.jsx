@@ -12,8 +12,9 @@ const Features = () => {
   return (
     <>
       <h1 className="feature-header">OUR FEATURES</h1>
+      <br />
       <Row className="feature-first-row">
-        <Col span={12}>
+        <Col className="feature-col-feature" span={12}>
           <div>
             <FaReact className="feature-icon" />
           </div>

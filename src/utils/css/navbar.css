@@ -11,7 +11,7 @@
 }
 
 .logo-img {
-  width: 100%;
+  width: 20%;
   height: 6vh;
 }
 
@@ -25,7 +25,7 @@
   padding: 4px 0px;
   font-family: "Rubik", sans-serif;
   font-size: 13px;
-  margin-top: 0%;
+  margin-top: -10%;
 }
 
 .nav-container a {
@@ -59,7 +59,7 @@
   font-size: 1.5rem;
 }
 
-@media only screen and (max-width: 890px) {
+@media only screen and (max-width: 945px) {
   .nav-btn {
     visibility: visible;
     opacity: 1;
@@ -146,26 +146,5 @@
   .nav-container li {
     position: relative;
     right: 340px;
-  }
-}
-
-@media screen and (max-width: 1085px) {
-  .nav-container li {
-    position: relative;
-    right: 400px;
-  }
-}
-
-@media screen and (max-width: 1022px) {
-  .nav-container li {
-    position: relative;
-    right: 440px;
-  }
-}
-
-@media screen and (max-width: 983px) {
-  .nav-container li {
-    position: relative;
-    right: 490px;
   }
 }

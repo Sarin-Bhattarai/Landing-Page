@@ -18,18 +18,18 @@ const Contact = () => {
     <>
       <h3 className="contact-header">GET IN TOUCH</h3>
       <br />
-      <Row className="contact-row">
-        <Col className="span-right-1" span={12}>
-          <Form
-            name="basic"
-            labelCol={{
-              span: 8,
-            }}
-            wrapperCol={{
-              span: 16,
-            }}
-          >
-            <div className="contact-form">
+      <div className="wrapper-container">
+        <Row className="contact-row">
+          <Col className="span-right-1" span={12}>
+            <Form
+              name="basic"
+              labelCol={{
+                span: 8,
+              }}
+              wrapperCol={{
+                span: 16,
+              }}
+            >
               <Form.Item
                 name="Name"
                 rules={[
@@ -43,7 +43,7 @@ const Contact = () => {
                   className="input-contact"
                   placeholder="Name"
                   style={{
-                    width: "130%",
+                    width: "100%",
                     marginRight: "20px",
                     height: 45,
                   }}
@@ -63,131 +63,125 @@ const Contact = () => {
                   className="input-contact"
                   placeholder="Email"
                   style={{
-                    width: "130%",
+                    width: "100%",
                     marginRight: "65px",
                     height: 45,
                   }}
                 />
               </Form.Item>
-            </div>
-            <Form.Item
-              labelCol={{
-                span: 3,
-              }}
-              name="Subject"
-            >
-              <Input
-                className="subject-to"
-                placeholder="Subject"
-                style={{
-                  width: "100%",
-                  height: 45,
+              <Form.Item
+                labelCol={{
+                  span: 3,
                 }}
-              />
-            </Form.Item>
+                name="Subject"
+              >
+                <Input
+                  className="subject-to"
+                  placeholder="Subject"
+                  style={{
+                    width: "100%",
+                    height: 45,
+                  }}
+                />
+              </Form.Item>
 
-            <Form.Item
-              labelCol={{
-                span: 3,
-              }}
-              name="Message"
-            >
-              <TextArea
-                className="subject-for"
-                placeholder="Message"
-                rows={4}
+              <Form.Item
+                labelCol={{
+                  span: 3,
+                }}
+                name="Message"
+              >
+                <TextArea
+                  className="subject-to"
+                  placeholder="Message"
+                  rows={4}
+                />
+              </Form.Item>
+            </Form>
+            <Button type="primary" htmlType="submit">
+              Send Message
+            </Button>
+          </Col>
+          <Col className="span-right-2" span={12}>
+            <div className="contact-first-contact">
+              <PhoneOutlined
+                style={{
+                  fontSize: 25,
+                  color: "black",
+                  opacity: 0.8,
+                }}
               />
-            </Form.Item>
-          </Form>
-          <Button type="primary" htmlType="submit">
-            Send Message
-          </Button>
-        </Col>
-        <Col className="span-right-2" span={12}>
-          <div className="contact-first-contact">
-            <PhoneOutlined
-              style={{
-                fontSize: 25,
-                border: "2px solid #999999",
-                borderRadius: 20,
-                padding: "5px 5px",
-                color: "black",
-              }}
-            />
-            <p className="p-p-p">Call: 012-345-6789</p>
-          </div>
-          <div className="contact-first-contact">
-            <MailOutlined
-              style={{
-                fontSize: 25,
-                border: "2px solid #999999",
-                borderRadius: 20,
-                padding: "6px 6px",
-                color: "black",
-              }}
-            />
+              <p className="p-p-p">Call: 012-345-6789</p>
+            </div>
+            <div className="contact-first-contact">
+              <MailOutlined
+                style={{
+                  fontSize: 25,
+                  color: "black",
+                  opacity: 0.8,
+                }}
+              />
 
-            <p className="p-p-p"> Email: youremailid@gmail.com</p>
-          </div>
-          <div className="contact-first-contact">
-            <HomeOutlined
-              style={{
-                fontSize: 25,
-                border: "2px solid #999999",
-                borderRadius: 20,
-                padding: "6px 6px",
-                color: "black",
-              }}
-            />
+              <p className="p-p-p"> Email: youremailid@gmail.com</p>
+            </div>
+            <div className="contact-first-contact">
+              <HomeOutlined
+                style={{
+                  fontSize: 25,
+                  color: "black",
+                  opacity: 0.8,
+                }}
+              />
 
-            <p className="p-p-p">
-              Location: 3179 Raccoon Run Seattle, WA 98109
-            </p>
-          </div>
-          <h1>Follow</h1>
-          <div className="icon-footer">
-            <div className="icon-hover">
-              <FacebookOutlined
-                style={{
-                  fontSize: 18,
-                }}
-              />
+              <p className="p-p-p">
+                Location: 3179 Raccoon Run Seattle, WA 98109
+              </p>
             </div>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <div className="icon-hover">
-              <TwitterOutlined
-                style={{
-                  fontSize: 18,
-                }}
-              />
+            <h1>Follow</h1>
+            <div className="icon-footer">
+              <div className="icon-hover">
+                <FacebookOutlined
+                  style={{
+                    fontSize: 18,
+                  }}
+                />
+              </div>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <div className="icon-hover">
+                <TwitterOutlined
+                  style={{
+                    fontSize: 18,
+                  }}
+                />
+              </div>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <div className="icon-hover">
+                <GooglePlusOutlined
+                  style={{
+                    fontSize: 18,
+                  }}
+                />
+              </div>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <div className="icon-hover">
+                <LinkedinOutlined
+                  style={{
+                    fontSize: 18,
+                  }}
+                />
+              </div>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <div className="icon-hover">
+                <WhatsAppOutlined
+                  style={{
+                    fontSize: 18,
+                  }}
+                />
+              </div>
             </div>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <div className="icon-hover">
-              <GooglePlusOutlined
-                style={{
-                  fontSize: 18,
-                }}
-              />
-            </div>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <div className="icon-hover">
-              <LinkedinOutlined
-                style={{
-                  fontSize: 18,
-                }}
-              />
-            </div>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <div className="icon-hover">
-              <WhatsAppOutlined
-                style={{
-                  fontSize: 18,
-                }}
-              />
-            </div>
-          </div>
-        </Col>
-      </Row>
+          </Col>
+        </Row>
+      </div>
 
       <Row className="contact-row-second">
         <Col className="res-col-2" span={6}>
