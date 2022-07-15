@@ -79,8 +79,8 @@
 
 .first-section:hover{
     transform: scale(1.1);
-    background-color:cadetblue;
-    color: white;
+    /* background-color:cadetblue; */
+    /* color: white; */
 }
 
 @media screen and (max-width:1260px) {

@@ -77,6 +77,7 @@ const Contact = () => {
               name="Subject"
             >
               <Input
+                className="subject-to"
                 placeholder="Subject"
                 style={{
                   width: "100%",
@@ -91,7 +92,11 @@ const Contact = () => {
               }}
               name="Message"
             >
-              <TextArea placeholder="Message" rows={4} />
+              <TextArea
+                className="subject-for"
+                placeholder="Message"
+                rows={4}
+              />
             </Form.Item>
           </Form>
           <Button type="primary" htmlType="submit">

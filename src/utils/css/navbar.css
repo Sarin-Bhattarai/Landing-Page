@@ -1,173 +1,171 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
 
 .nav-container {
-    display: flex;
-    background: transparent;
-    padding: 5px 5px;
+  display: flex;
+  background: transparent;
+  padding: 5px 5px;
 }
 
 .nav-container.active {
-    background: black;
+  background: black;
 }
 
-
-.logo-img{
-    width: 100%;
-    height: 6vh;
+.logo-img {
+  width: 100%;
+  height: 6vh;
 }
 
 .nav-container ul {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-    position: relative;
-    left: 600px;
-    margin: 0px 35px;
-    padding: 4px 0px;
-    font-family: 'Rubik', sans-serif;
-    font-size: 13px;
-    margin-top: 0%;
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  position: relative;
+  left: 600px;
+  margin: 0px 35px;
+  padding: 4px 0px;
+  font-family: "Rubik", sans-serif;
+  font-size: 13px;
+  margin-top: 0%;
 }
 
 .nav-container a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .nav-container a.active {
-    text-decoration: underline;
-    color: #ffa200;
+  text-decoration: underline;
+  color: #ffa200;
 }
 /* change */
-.active{
-color: #ffa200;
+.active {
+  color: #ffa200;
 }
 /* end */
 
 .nav-container a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .nav-btn {
-    padding: 5px;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    outline: none;
-    color: white;
-    visibility: hidden;
-    opacity: 0;
-    font-size: 1.5rem;
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 890px) {
-    .nav-btn {
-        visibility: visible;
-        opacity: 1;
-        margin-left: 98%;
-    }
+  .nav-btn {
+    visibility: visible;
+    opacity: 1;
+    margin-left: 98%;
+  }
 
-    nav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 79%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        background-color: black;
-        transition: 1s;
-        transform: translateY(-100vh);
-    }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 79%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
 
-    .responsive_nav {
-        transform: none;
-    }
+  .responsive_nav {
+    transform: none;
+  }
 
-    .nav-close-btn {
-        position: absolute;
-        top: 2rem;
-        right: 2rem;
-    }
+  .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
 
-    nav ul {
-        display: block !important;
-        margin-left: -26% !important;
-        margin-top: -1% !important;
-    }
+  nav ul {
+    display: block !important;
+    margin-left: -26% !important;
+    margin-top: -1% !important;
+  }
 }
-
 
 /* screen set for big inch desktops */
 
 @media screen and (min-width: 1600px) {
-.nav-container ul {
-        list-style: none;
-        display: flex;
-        gap: 1.5rem;
-        position: relative;
-        left: 660px;
-        margin: 0px 35px;
-        padding: 4px 0px;
-        font-family: 'Rubik', sans-serif;
-        font-size: 13px;
-    }
+  .nav-container ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    position: relative;
+    left: 660px;
+    margin: 0px 35px;
+    padding: 4px 0px;
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
-    .nav-container ul {
-        list-style: none;
-        display: flex;
-        gap: 1.5rem;
-        position: relative;
-        left: 990px;
-        margin: 0px 35px;
-        padding: 4px 0px;
-        font-family: 'Rubik', sans-serif;
-        font-size: 13px;
-    }
+  .nav-container ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    position: relative;
+    left: 990px;
+    margin: 0px 35px;
+    padding: 4px 0px;
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+  }
 }
 
 /* setting for big inches desktop ends here */
 
-        @media screen and (max-width: 1286px) {
-            .nav-container li {
-                position: relative;
-                right: 200px;
-            }
-        }
+@media screen and (max-width: 1286px) {
+  .nav-container li {
+    position: relative;
+    right: 200px;
+  }
+}
 
-        @media screen and (max-width: 1225px) {
-            .nav-container li {
-                position: relative;
-                right: 250px;
-            }
-        }
+@media screen and (max-width: 1225px) {
+  .nav-container li {
+    position: relative;
+    right: 250px;
+  }
+}
 
-        @media screen and (max-width: 1175px) {
-            .nav-container li {
-                position: relative;
-                right: 340px;
-            }
-        }
-        
-        @media screen and (max-width: 1085px) {
-            .nav-container li {
-                position: relative;
-                right: 400px
-            }
-        }
+@media screen and (max-width: 1175px) {
+  .nav-container li {
+    position: relative;
+    right: 340px;
+  }
+}
 
-        @media screen and (max-width: 1022px) {
-            .nav-container li {
-                position: relative;
-                right: 440px
-            }
-        }
+@media screen and (max-width: 1085px) {
+  .nav-container li {
+    position: relative;
+    right: 400px;
+  }
+}
 
-        @media screen and (max-width: 983px) {
-            .nav-container li {
-                position: relative;
-                right: 490px
-            }
-        }
+@media screen and (max-width: 1022px) {
+  .nav-container li {
+    position: relative;
+    right: 440px;
+  }
+}
+
+@media screen and (max-width: 983px) {
+  .nav-container li {
+    position: relative;
+    right: 490px;
+  }
+}
