@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "../utils/css/navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../utils/assets/logo.png";
+import logo from "../utils/assets/zooki.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {

@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
 
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .nav-container {
-  display: flex;
   background: transparent;
-  padding: 5px 5px;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: transparent; */
 }
 
 .nav-container.active {
@@ -11,21 +20,20 @@
 }
 
 .logo-img {
-  width: 20%;
-  height: 6vh;
+  width: 7%;
+  height: 4vh;
 }
 
 .nav-container ul {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
-  position: relative;
-  left: 600px;
-  margin: 0px 35px;
-  padding: 4px 0px;
+  align-items: center;
+  justify-content: space-around;
+  /* list-style: none;
+  display: flex;
+  gap: 3rem;
   font-family: "Rubik", sans-serif;
-  font-size: 13px;
-  margin-top: -10%;
+  font-size: 13px; */
 }
 
 .nav-container a {
@@ -189,6 +197,7 @@
     padding: 4px 0px;
     font-family: "Rubik", sans-serif;
     font-size: 13px;
+    margin-top: -10%;
   }
 }
 
@@ -203,6 +212,7 @@
     padding: 4px 0px;
     font-family: "Rubik", sans-serif;
     font-size: 13px;
+    margin-top: -10%;
   }
 }
 
