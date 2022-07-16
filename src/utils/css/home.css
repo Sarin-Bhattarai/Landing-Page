@@ -1,150 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
 
-.home-first-row{
-    text-align: center;
-    margin-top: 10%;
-    margin-bottom: 0;
-    font-family: 'Rubik', sans-serif;
-    color: white;
+.home-row {
+  display: flex !important;
+  justify-content: space-around;
 }
 
-.home-first-row-second-item{
-    margin-top: 42px;
-    border: 1px solid;
-    text-transform: uppercase;
-    transition: all .5s;
-    width:fit-content;
-    padding: 12px 14px;
-    border-radius: 4px;
-    letter-spacing: 1px;
-    background-color: #FF8700;
-    font-family: 'Rubik', sans-serif;
-    margin-left: 40%;
-    transition: 0.3s;
-    animation: ease-in;
-    overflow: hidden;
+.home-first-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 0;
+  font-family: "Rubik", sans-serif;
+  color: white;
 }
 
-.home-first-row-second-item:hover{
-    transform: scale(1.1);
-    box-shadow: 0px 0px 8px 0px;
+.home-col-1 {
+  margin-top: 3%;
 }
 
-.home-first-row-second-item a{
-    color: white;
+.heading-home {
+  font-size: 52px;
+  color: white;
+  font-weight: 400;
 }
 
-.home-first-row-second-item a:hover{
-    color: white;
+.home-desc {
+  font-family: "Rubik", sans-serif;
 }
 
-.home-second-row-pic{
-    height:60vh;
-    margin-top: 7%;
-    margin-left: 20%;
+.home-first-row-second-item {
+  margin-top: 42px;
+  border: 1px solid #ff8700;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  width: fit-content;
+  padding: 12px 14px;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  background-color: #ff8700;
+  font-family: "Rubik", sans-serif;
+  transition: 0.3s;
+  animation: ease-in;
+  overflow: hidden;
+}
+
+.home-first-row-second-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 8px 0px #ff8700;
+}
+
+.home-first-row-second-item a {
+  color: white;
+}
+
+.home-first-row-second-item a:hover {
+  color: white;
+}
+
+.home-second-row-pic {
+  height: 68vh;
+  width: 90%;
+}
+
+.home-second-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 6%;
 }
 
 /* animation for image */
 .home-second-row-pic {
-    -webkit-animation: mover 2s infinite alternate;
-    animation: mover 2s infinite alternate;
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
 }
 
 @-webkit-keyframes mover {
-    0% {
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(0);
+  }
 
-    100% {
-        transform: translateY(-20px);
-    }
+  100% {
+    transform: translateY(-20px);
+  }
 }
 
 @keyframes mover {
-    0% {
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(0);
+  }
 
-    100% {
-        transform: translateY(-20px);
-    }
+  100% {
+    transform: translateY(-20px);
+  }
 }
 
-
-@media screen and (max-width: 1224px) {
-
-    .home-second-row{
-        position: absolute;
-        margin-top: 10%;
-        }
-}
-
-
-@media screen and (max-width: 805px) {
-        .home-row  {
-        margin-top: 7% !important;
-    }
-}
-
-@media screen and (max-width: 420px) {
-
-    .home-row{
-        margin-top: 15% !important;
-    }
-    .home-first-row-second-item {
-        height: 35px;
-        font-size: 10px;
-        padding: 10px 10px !important;
-    }
-}
-
-
-@media screen and (max-width: 472px) {
-    .home-row img {
-        margin-left: 20px;
-        height: 50vh;
-    }
-
-    .home-col-1 {
-        margin-left: 15%;
-    }
-}
-
-
-@media screen and (max-width: 845px) {
-    .home-row{
-        display: grid !important;
-        height:123vh !important;
-        justify-content: center;
-        text-align: start;        
-}
-
-    .home-row h1{
-        display:contents;
-        font-size: 38px !important;
-    }
-
-    .home-col-1 {
-        margin-left: 15%;
-    }
-
-    .home-first-row{
-        margin-right: -51px;
-    }
-
-    .home-first-row p{
-        line-height: 25px;
-        font-size: 18px;
-        font-weight: 300;
-    }
-
-    .home-first-row-second-item{
-        height: 35px;
-        text-align: center;
-        padding: 4px 4px;
-    }
-
-    .home-second-row{
-        margin-top: -220px;
-    }
+@media screen and (max-width: 990px) {
+  .home-row {
+    display: block !important;
+  }
+  .home-col-1 {
+    margin-top: 7%;
+  }
 }

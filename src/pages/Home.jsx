@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "antd";
 import "../utils/css/home.css";
-import Launch from "../utils/assets/Launch.png";
+import Launch from "../utils/assets/zookilaunch.png";
 
 const Home = () => {
   return (
@@ -9,31 +9,26 @@ const Home = () => {
       className="home-row"
       style={{
         backgroundColor: "#001529",
-        height: "75vh",
+        height: "95vh",
         marginTop: "4%",
       }}
     >
       <Col className="home-col-1" span={12}>
         <div className="home-first-row">
-          <h1
-            style={{
-              fontSize: "52px",
-              color: "white",
-            }}
-          >
-            <strong>M</strong>ake Your
+          <h1 className="heading-home">
+            Make Your
             <br />
-            Marketing <strong>R</strong>eal.
+            Marketing Real.
           </h1>
-          <p>
+          <p className="home-desc">
             Ut enim ad minima veniam quis nostrum exercitationem ullam
             <br /> corporis at suscipit laboriosam nisi ut aliquid a commodi
             <br />
             consequatur Quis autem.
           </p>
-        </div>
-        <div className="home-first-row-second-item">
-          <a href="/about">Learn More</a>
+          <div className="home-first-row-second-item">
+            <a href="/about">Learn More</a>
+          </div>
         </div>
       </Col>
       <Col span={12}>
@@ -44,5 +39,4 @@ const Home = () => {
     </Row>
   );
 };
-
 export default Home;
