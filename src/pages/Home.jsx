@@ -5,14 +5,7 @@ import Launch from "../utils/assets/zookilaunch.png";
 
 const Home = () => {
   return (
-    <Row
-      className="home-row"
-      style={{
-        backgroundColor: "#001529",
-        height: "95vh",
-        marginTop: "4%",
-      }}
-    >
+    <Row className="home-row">
       <Col className="home-col-1" span={12}>
         <div className="home-first-row">
           <h1 className="heading-home">

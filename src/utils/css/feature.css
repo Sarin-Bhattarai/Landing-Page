@@ -3,7 +3,7 @@
 /* for first row */
 .feature-header {
   margin-top: 5%;
-  margin-left: 17%;
+  margin-left: 13%;
   font-family: "Rubik", sans-serif;
   font-weight: 300;
   font-size: 27px;
@@ -74,7 +74,30 @@
   transform: scale(1.1);
 }
 
-@media screen and (min-width: 975px) and (max-width: 1286px) {
+@media screen and (max-width: 1286px) {
+  .feature-header {
+    margin-left: 10%;
+    margin-top: 15%;
+  }
+  .feature-col-feature {
+    margin-top: 8%;
+  }
+
+  .feature-pic-feature {
+    margin-top: 11%;
+  }
+}
+
+/* 1149 give */
+
+@media screen and (max-width: 900px) {
+  .feature-header {
+    margin-left: 18%;
+    margin-top: 35%;
+  }
+}
+
+/* @media screen and (min-width: 975px) and (max-width: 1286px) {
   .feature__header {
     margin-left: 5rem;
   }
@@ -88,9 +111,9 @@
     position: relative;
     right: 215px;
   }
-}
+} */
 
-@media screen and (min-width: 975px) and (max-width: 1190px) {
+/* @media screen and (min-width: 975px) and (max-width: 1190px) {
   .feature__header {
     margin-left: 3rem;
   }
@@ -104,9 +127,9 @@
     position: relative;
     right: 210px;
   }
-}
+} */
 
-@media screen and (max-width: 1130px) {
+/* @media screen and (max-width: 1130px) {
   .feature-desc {
     text-align: center;
     position: relative;
@@ -146,9 +169,9 @@
     position: relative;
     right: 290px;
   }
-}
+} */
 
-@media screen and (max-width: 860px) {
+/* @media screen and (max-width: 860px) {
   .border-image {
     position: relative;
     right: 90px;
@@ -336,4 +359,4 @@
   .feature-header {
     margin-left: 18%;
   }
-}
+} */

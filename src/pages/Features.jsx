@@ -34,7 +34,7 @@ const Features = () => {
             </p>
           </div>
         </Col>
-        <Col span={12}>
+        <Col className="feature-pic-feature" span={12}>
           <div className="border-image">
             <img
               className="feature-firstImage"

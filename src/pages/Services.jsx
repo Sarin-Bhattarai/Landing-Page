@@ -1,98 +1,82 @@
 import React from "react";
-import { Col, Row } from "antd";
 import "../utils/css/services.css";
-import { IoServer, IoColorPalette, IoStatsChart } from "react-icons/io5";
-import { CgIfDesign } from "react-icons/cg";
-import { SiMaterialdesignicons } from "react-icons/si";
-import { RiCheckboxMultipleFill } from "react-icons/ri";
 
 const Services = () => {
   return (
     <>
       <h3 className="service-header">OUR SERVICES</h3>
-      <Row className="services-row">
-        <Col className="container-service" span={8}>
-          <div className="ss-1">
-            <IoServer className="service-icon" />
-          </div>
-          <h1 className="section-headers">Awesome Support</h1>
-          <div className="ss-2">
-            <p className="service-desc">
-              Sed ut perspiciatis unde sit omnise iste natus
-              <br /> voluptatem site accusantium doloremque
-              <br /> laudantium combined with a handful totam.
+      <div className="service-container">
+        <div className="service-row">
+          <div className="service">
+            <i className="fas fa-laptop-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Sed ut perspiciatis unde sit omnise iste natus voluptatem site
+              accusantium doloremque laudantium combined with a handful totam.
             </p>
           </div>
-        </Col>
-        <Col className="container-service" span={8}>
-          <div>
-            <IoColorPalette className="service-icon" />
-          </div>
-          <div>
-            <h1 className="section-headers">Unlimited Colors</h1>
-            <p className="service-desc">
-              Sed ut perspiciatis unde sit omnise iste natus
-              <br /> voluptatem site accusantium doloremque
-              <br /> laudantium combined with a handful totam.
+          <div className="service">
+            <i className="fas fa-chart-line"></i>
+            <h2>Marketing</h2>
+            <p>
+              Sed ut perspiciatis unde sit omnise iste natus voluptatem site
+              accusantium doloremque laudantium combined with a handful totam.
             </p>
           </div>
-        </Col>
-        <Col className="container-service" span={8}>
-          <div>
-            <IoStatsChart className="service-icon" />
-          </div>
-          <div>
-            <h1 className="section-headers">Strategy Solutions</h1>
-            <p className="service-desc">
-              Sed ut perspiciatis unde sit omnise iste natus
-              <br /> voluptatem site accusantium doloremque
-              <br /> laudantium combined with a handful totam.
+          <div className="service">
+            <i className="fas fa-file-invoice-dollar"></i>
+            <h2>Accounting</h2>
+            <p>
+              Sed ut perspiciatis unde sit omnise iste natus voluptatem site
+              accusantium doloremque laudantium combined with a handful totam.
             </p>
           </div>
-        </Col>
-      </Row>
+          <div className="service">
+            <i className="fas fa-id-badge"></i>
+            <h2>Payroll</h2>
+            <p>
+              Sed ut perspiciatis unde sit omnise iste natus voluptatem site
+              accusantium doloremque laudantium combined with a handful totam.
+            </p>
+          </div>
 
-      <Row className="services-second-row">
-        <Col className="container-service" span={8}>
-          <div>
-            <CgIfDesign className="service-icon" />
-          </div>
-          <div>
-            <h1 className="section-headers">Digital Design</h1>
-            <p className="service-desc">
-              Sed ut perspiciatis unde sit omnise iste natus
-              <br /> voluptatem site accusantium doloremque
-              <br /> laudantium combined with a handful totam.
+          <div className="service">
+            <i className="fas fa-network-wired"></i>
+            <h2>Networking</h2>
+            <p>
+              Sed ut perspiciatis unde sit omnise iste natus voluptatem site
+              accusantium doloremque laudantium combined with a handful totam.
             </p>
           </div>
-        </Col>
-        <Col className="container-service" span={8}>
-          <div>
-            <SiMaterialdesignicons className="service-icon" />
-          </div>
-          <div>
-            <h1 className="section-headers">Easy to customize</h1>
-            <p className="service-desc">
-              Sed ut perspiciatis unde sit omnise iste natus
-              <br /> voluptatem site accusantium doloremque
-              <br /> laudantium combined with a handful totam.
+
+          <div className="service">
+            <i className="fas fa-mobile-alt"></i>
+            <h2>App Development</h2>
+            <p>
+              Sed ut perspiciatis unde sit omnise iste natus voluptatem site
+              accusantium doloremque laudantium combined with a handful totam.
             </p>
           </div>
-        </Col>
-        <Col className="container-service" span={8}>
-          <div>
-            <RiCheckboxMultipleFill className="service-icon" />
-          </div>
-          <div>
-            <h1 className="section-headers">Truly Multipurpose</h1>
-            <p className="service-desc">
-              Sed ut perspiciatis unde sit omnise iste natus
-              <br /> voluptatem site accusantium doloremque
-              <br /> laudantium combined with a handful totam.
+
+          <div className="service">
+            <i className="fas fa-chart-pie"></i>
+            <h2>Data Analysis</h2>
+            <p>
+              Sed ut perspiciatis unde sit omnise iste natus voluptatem site
+              accusantium doloremque laudantium combined with a handful totam.
             </p>
           </div>
-        </Col>
-      </Row>
+
+          <div className="service">
+            <i className="fas fa-palette"></i>
+            <h2>Graphics</h2>
+            <p>
+              Sed ut perspiciatis unde sit omnise iste natus voluptatem site
+              accusantium doloremque laudantium combined with a handful totam.
+            </p>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

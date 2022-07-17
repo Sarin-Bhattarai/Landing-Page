@@ -3,6 +3,8 @@
 .home-row {
   display: flex !important;
   justify-content: space-around;
+  background: #001529;
+  margin-top: 4%;
 }
 
 .home-first-row {
