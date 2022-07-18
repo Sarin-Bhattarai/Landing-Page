@@ -77,7 +77,7 @@ const App = () => {
           style={{
             textAlign: "center",
             color: "white",
-            background: "#212529",
+            background: "#001529",
           }}
         >
           App Technologies ©2022 Created by App Tech

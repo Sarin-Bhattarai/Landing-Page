@@ -2,7 +2,7 @@ import React from "react";
 import "../utils/css/contact.css";
 import { FiMapPin } from "react-icons/fi";
 import { MdPhone, MdOutlineEmail } from "react-icons/md";
-import { Col, Divider, Row } from "antd";
+import Footer from "../components/contact-footer/footer";
 
 const Contact = () => {
   return (
@@ -65,83 +65,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-
-      <Row
-        gutter={{
-          xs: 8,
-          sm: 16,
-          md: 24,
-          lg: 32,
-        }}
-      >
-        <Col className="gutter-row" span={6}>
-          <div className="contact-col">
-            <h2>ABOUT US</h2>
-            <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              that is doloremque totam that was.
-            </p>
-          </div>
-        </Col>
-        <Col className="gutter-row" span={6}>
-          <div className="contact-col">
-            <h2>COMPANY</h2>
-            <ul className="ul-contact">
-              <li>
-                <a href="/#"> Monitoring Grader</a>
-              </li>
-              <li>
-                <a href="/#"> Job Opening</a>
-              </li>
-              <li>
-                <a href="/#"> Customers</a>
-              </li>
-              <li>
-                <a href="/#"> Privacy</a>
-              </li>
-            </ul>
-          </div>
-        </Col>
-        <Col className="gutter-row" span={6}>
-          <div className="contact-col">
-            <div className="contact-col">
-              <h2>SUPPORT</h2>
-              <ul className="ul-contact">
-                <li>
-                  <a href="/#">Get Started</a>
-                </li>
-                <li>
-                  <a href="/#">Blog</a>
-                </li>
-                <li>
-                  <a href="/#"> Knowledge Base</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </Col>
-        <Col className="gutter-row" span={6}>
-          <div className="contact-col">
-            <div className="contact-col">
-              <h2>LEGAL</h2>
-              <ul className="ul-contact">
-                <li>
-                  <a href="/#">Terms & Conditions</a>
-                </li>
-                <li>
-                  <a href="/#">Privacy Policy</a>
-                </li>
-                <li>
-                  <a href="/#">Customers</a>
-                </li>
-                <li>
-                  <a href="/#">Pricing</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </Col>
-      </Row>
+      <Footer />
     </>
   );
 };
