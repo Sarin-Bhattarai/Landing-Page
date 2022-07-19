@@ -1,6 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 
-/* for first row */
+#pic-div {
+  border: 1px solid #005bea;
+  width: fit-content;
+  border-radius: 300px;
+  background: #005bea;
+  margin-bottom: 10%;
+}
+
+#pic-div:hover {
+  box-shadow: 0px 0px 14px 0px black;
+}
+
+.hover-image {
+  box-sizing: border-box;
+  transition: all 0.5s;
+  transition: 0.9s;
+  animation: ease-in;
+}
+
+.hover-image:hover {
+  transform: scale(1.1);
+}
+
+#section-feature {
+  margin-top: 5%;
+}
+
+.feature-icon {
+  font-size: 45px;
+  margin-bottom: 15px;
+  color: #005bea;
+}
+
+#feature-header {
+  font-family: "Rubik", sans-serif;
+}
+
+#feature-para {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
 .feature-header {
   margin-top: 5%;
   margin-left: 13%;
@@ -11,196 +54,9 @@
   position: absolute;
 }
 
-.feature-first-row {
-  margin-top: 13%;
-  justify-content: center;
-  text-align: center;
-}
-
-.feature__header {
-  font-family: "Rubik", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  margin-left: 4%;
-}
-
-.feature__header-2 {
-  font-family: "Rubik", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  margin-left: 4%;
-}
-
-.feature-desc {
-  font-family: "Rubik", sans-serif;
-  font-weight: 300;
-  font-size: 15px;
-  margin-left: 34%;
-  text-align: left;
-  margin-top: 2%;
-}
-
-.feature-icon {
-  height: 50px;
-  width: 50px;
-  margin-bottom: 8px;
-  color: #0275d8;
-  margin-right: 25%;
-}
-
-.border-image {
-  border: 1px solid #005bea;
-  width: fit-content;
-  margin-left: 15%;
-  border-radius: 180px;
-  margin-top: -4%;
-  background: #005bea;
-}
-
-.border-image:hover {
-  box-shadow: 0px 0px 14px 0px black;
-}
-
-.feature-firstImage {
-  margin-top: -8%;
-  box-sizing: border-box;
-  position: relative;
-  transition: all 0.5s;
-  transition: 0.9s;
-  animation: ease-in;
-}
-
-.feature-firstImage:hover {
-  transform: scale(1.1);
-}
-
-@media screen and (max-width: 1286px) {
-  .feature-header {
-    margin-left: 10%;
-    margin-top: 15%;
-  }
-  .feature-col-feature {
-    margin-top: 8%;
-  }
-
-  .feature-pic-feature {
-    margin-top: 11%;
-  }
-}
-
-@media screen and (max-width: 1149px) {
-  .feature-header {
-    margin-left: 10%;
-    margin-top: 20%;
-  }
-  .feature-col-feature {
-    margin-top: 15%;
-  }
-
-  .feature-pic-feature {
-    margin-top: 10%;
-  }
-}
-
-@media screen and (max-width: 1010px) {
-  .feature-first-row {
-    display: block !important;
-  }
-
-  .feature-header {
-    margin-top: 25%;
-  }
-
-  .feature-col-feature {
-    margin-top: 35%;
-    margin-left: 25%;
-  }
-
-  .feature-icon {
-    margin-left: 25%;
-  }
-}
-
-@media screen and (max-width: 981px) {
-  .feature-header {
-    margin-left: 5%;
-    margin-top: 45%;
-  }
-
-  .feature-col-feature {
-    margin-top: 55%;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .feature-header {
-    margin-left: 18%;
-    margin-top: 45%;
-  }
-}
-
-@media screen and (max-width: 810px) {
-  .feature-header {
-    margin-left: 18%;
-    margin-top: 50%;
-  }
-
-  .feature-col-feature {
-    margin-top: 60%;
-  }
-}
-
-@media screen and (max-width: 760.5px) {
-  .feature-header {
-    margin-left: 18%;
-    margin-top: 70%;
-  }
-
-  .feature-col-feature {
-    margin-top: 80%;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .feature-header {
-    margin-left: 18%;
-    margin-top: 77%;
-  }
-
-  .feature-col-feature {
-    margin-top: 87%;
-  }
-}
-
-@media screen and (max-width: 648px) {
-  .feature-header {
-    margin-left: 18%;
-    margin-top: 210%;
-  }
-
-  .feature-col-feature {
-    margin-top: 220%;
-  }
-}
-
-@media screen and (max-width: 588px) {
-  .feature-header {
-    margin-left: 18%;
-    margin-top: 230%;
-  }
-
-  .feature-col-feature {
-    margin-top: 240%;
-  }
-}
-
-@media screen and (max-width: 553px) {
-  .feature-header {
-    margin-left: 18%;
-    margin-top: 290% !important;
-  }
-
-  .feature-col-feature {
-    margin-top: 260%;
+@media screen and (max-width: 500px) {
+  .hover-image {
+    width: 280px;
+    height: 280px;
   }
 }

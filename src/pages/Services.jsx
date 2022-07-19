@@ -5,78 +5,119 @@ const Services = () => {
   return (
     <>
       <h3 className="service-header">OUR SERVICES</h3>
-      <div className="service-container">
-        <div className="service-row">
-          <div className="service">
-            <i className="fas fa-laptop-code"></i>
-            <h2>Web Design</h2>
-            <p>
-              Sed ut perspiciatis unde sit omnise iste natus voluptatem site
-              accusantium doloremque laudantium combined with a handful totam.
-            </p>
-          </div>
-          <div className="service">
-            <i className="fas fa-chart-line"></i>
-            <h2>Marketing</h2>
-            <p>
-              Sed ut perspiciatis unde sit omnise iste natus voluptatem site
-              accusantium doloremque laudantium combined with a handful totam.
-            </p>
-          </div>
-          <div className="service">
-            <i className="fas fa-file-invoice-dollar"></i>
-            <h2>Accounting</h2>
-            <p>
-              Sed ut perspiciatis unde sit omnise iste natus voluptatem site
-              accusantium doloremque laudantium combined with a handful totam.
-            </p>
-          </div>
-          <div className="service">
-            <i className="fas fa-id-badge"></i>
-            <h2>Payroll</h2>
-            <p>
-              Sed ut perspiciatis unde sit omnise iste natus voluptatem site
-              accusantium doloremque laudantium combined with a handful totam.
-            </p>
-          </div>
+      <section
+        style={{
+          marginTop: "10%",
+        }}
+      >
+        <div className="container">
+          <div className="row my-5">
+            <div className="col-12 col-sm-6 col-md-4 m-auto" id="main-column">
+              <div className="card border-0 shadow my-3" id="main-card">
+                <div className="card-body">
+                  <i className="fas fa-laptop-code" />
+                  <h1 id="header-service">Web Design</h1>
+                  <p id="para-service">
+                    Sed ut perspiciatis unde sit omnise iste natus voluptatem
+                    site accusantium doloremque laudantium combined with a
+                    handful totam.
+                  </p>
+                </div>
+                {/* card body ends */}
+              </div>
+              {/* card ends */}
+            </div>
+            {/* col ends */}
 
-          <div className="service">
-            <i className="fas fa-network-wired"></i>
-            <h2>Networking</h2>
-            <p>
-              Sed ut perspiciatis unde sit omnise iste natus voluptatem site
-              accusantium doloremque laudantium combined with a handful totam.
-            </p>
-          </div>
+            <div className="col-12 col-sm-6 col-md-4 m-auto" id="main-column">
+              <div className="card border-0 shadow  my-3" id="main-card">
+                <div className="card-body">
+                  <i className="fas fa-chart-line" />
+                  <h1 id="header-service">Marketing</h1>
+                  <p id="para-service">
+                    Sed ut perspiciatis unde sit omnise iste natus voluptatem
+                    site accusantium doloremque laudantium combined with a
+                    handful totam.
+                  </p>
+                </div>
+                {/* card body ends */}
+              </div>
+              {/* card ends */}
+            </div>
+            {/* col ends */}
 
-          <div className="service">
-            <i className="fas fa-mobile-alt"></i>
-            <h2>App Development</h2>
-            <p>
-              Sed ut perspiciatis unde sit omnise iste natus voluptatem site
-              accusantium doloremque laudantium combined with a handful totam.
-            </p>
-          </div>
+            <div className="col-12 col-sm-6 col-md-4 m-auto">
+              <div className="card border-0 shadow  my-3" id="main-card">
+                <div className="card-body">
+                  <i className="fas fa-file-invoice-dollar" />
+                  <h1 id="header-service">Accounting</h1>
+                  <p id="para-service">
+                    Sed ut perspiciatis unde sit omnise iste natus voluptatem
+                    site accusantium doloremque laudantium combined with a
+                    handful totam.
+                  </p>
+                </div>
+                {/* card body ends */}
+              </div>
+              {/* card ends */}
+            </div>
+            {/* col ends */}
 
-          <div className="service">
-            <i className="fas fa-chart-pie"></i>
-            <h2>Data Analysis</h2>
-            <p>
-              Sed ut perspiciatis unde sit omnise iste natus voluptatem site
-              accusantium doloremque laudantium combined with a handful totam.
-            </p>
-          </div>
+            <div className="col-12 col-sm-6 col-md-4 m-auto">
+              <div className="card border-0 shadow  my-3" id="main-card">
+                <div className="card-body">
+                  <i className="fas fa-id-badge" />
+                  <h1 id="header-service">Payroll</h1>
+                  <p id="para-service">
+                    Sed ut perspiciatis unde sit omnise iste natus voluptatem
+                    site accusantium doloremque laudantium combined with a
+                    handful totam.
+                  </p>
+                </div>
+                {/* card body ends */}
+              </div>
+              {/* card ends */}
+            </div>
+            {/* col ends */}
 
-          <div className="service">
-            <i className="fas fa-palette"></i>
-            <h2>Graphics</h2>
-            <p>
-              Sed ut perspiciatis unde sit omnise iste natus voluptatem site
-              accusantium doloremque laudantium combined with a handful totam.
-            </p>
+            <div className="col-12 col-sm-6 col-md-4 m-auto">
+              <div className="card border-0 shadow  my-3" id="main-card">
+                <div className="card-body">
+                  <i className="fas fa-laptop-code" />
+                  <h1 id="header-service">Networking</h1>
+                  <p id="para-service">
+                    Sed ut perspiciatis unde sit omnise iste natus voluptatem
+                    site accusantium doloremque laudantium combined with a
+                    handful totam.
+                  </p>
+                </div>
+                {/* card body ends */}
+              </div>
+              {/* card ends */}
+            </div>
+            {/* col ends */}
+
+            <div className="col-12 col-sm-6 col-md-4 m-auto">
+              <div className="card border-0 shadow  my-3" id="main-card">
+                <div className="card-body">
+                  <i className="fas fa-mobile-alt" />
+                  <h1 id="header-service">App Development</h1>
+                  <p id="para-service">
+                    Sed ut perspiciatis unde sit omnise iste natus voluptatem
+                    site accusantium doloremque laudantium combined with a
+                    handful totam.
+                  </p>
+                </div>
+                {/* card body ends */}
+              </div>
+              {/* card ends */}
+            </div>
+            {/* col ends */}
           </div>
+          {/* row ends */}
         </div>
-      </div>
+        {/* container ends */}
+      </section>
     </>
   );
 };

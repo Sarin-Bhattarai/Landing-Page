@@ -1,80 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
 
-.home-row {
-  display: flex !important;
-  justify-content: space-around;
-  background: #001529;
-  margin-top: 4%;
+.home-btn {
+  border: 1px solid #ff8700 !important;
+  text-transform: uppercase !important;
+  transition: all 0.5s !important;
+  width: fit-content !important;
+  padding: 12px 14px !important;
+  border-radius: 4px !important;
+  letter-spacing: 1px !important;
+  background-color: #ff8700 !important;
+  font-family: "Rubik", sans-serif !important;
+  transition: 0.3s !important;
+  animation: ease-in !important;
+  overflow: hidden !important;
+  color: #fff !important;
 }
 
-.home-first-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-  margin-top: 10%;
-  margin-bottom: 0;
-  font-family: "Rubik", sans-serif;
-  color: white;
-}
-
-.home-col-1 {
-  margin-top: 3%;
-}
-
-.heading-home {
-  font-size: 52px;
-  color: white;
-  font-weight: 400;
-}
-
-.home-desc {
-  font-family: "Rubik", sans-serif;
-}
-
-.home-first-row-second-item {
-  margin-top: 42px;
-  border: 1px solid #ff8700;
-  text-transform: uppercase;
-  transition: all 0.5s;
-  width: fit-content;
-  padding: 12px 14px;
-  border-radius: 4px;
-  letter-spacing: 1px;
-  background-color: #ff8700;
-  font-family: "Rubik", sans-serif;
-  transition: 0.3s;
-  animation: ease-in;
-  overflow: hidden;
-}
-
-.home-first-row-second-item:hover {
+.home-btn:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0px 8px 0px #ff8700;
-}
-
-.home-first-row-second-item a {
-  color: white;
-}
-
-.home-first-row-second-item a:hover {
-  color: white;
-}
-
-.home-second-row-pic {
-  height: 68vh;
-  width: 90%;
-}
-
-.home-second-row {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 6%;
+  box-shadow: 0px 0px 8px 0px #ff8700 !important;
 }
 
 /* animation for image */
-.home-second-row-pic {
+.img-fluid {
   -webkit-animation: mover 2s infinite alternate;
   animation: mover 2s infinite alternate;
 }
@@ -99,11 +47,23 @@
   }
 }
 
-@media screen and (max-width: 990px) {
-  .home-row {
-    display: block !important;
+#tag-h1 {
+  font-size: 54px;
+}
+
+#tag-h2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 992px) {
+  #main-div {
+    margin-top: 10%;
   }
-  .home-col-1 {
-    margin-top: 7%;
+}
+
+@media screen and (max-width: 500px) {
+  #main-div {
+    margin-top: 15%;
   }
 }

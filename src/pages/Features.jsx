@@ -1,5 +1,4 @@
 import React from "react";
-import { Col, Row } from "antd";
 import "../utils/css/feature.css";
 import { FaReact } from "react-icons/fa";
 import { MdMoving } from "react-icons/md";
@@ -13,101 +12,109 @@ const Features = () => {
     <>
       <h1 className="feature-header">OUR FEATURES</h1>
       <br />
-      <Row className="feature-first-row">
-        <Col className="feature-col-feature" span={12}>
-          <div>
-            <FaReact className="feature-icon" />
-          </div>
-          <h1 className="feature__header">Marketing Performance</h1>
-          <div className="f-feature-desc">
-            <p className="feature-desc">
-              Itaque earum rerum hic tenetur sapiente delectut reiciendis
-              voluptatibus
-              <br /> perspiciatis unde omnis iste natus error sit maiores alias
-              consequatur
-              <br /> perferendisthat doloribus asperiores repellat.
-              <br />
-              <br />
-              Nam libero tempore cum soluta nobis eligendi optio cumque nihil
-              impedit
-              <br /> minusidquod maxime placeat facere possimus.
-            </p>
-          </div>
-        </Col>
-        <Col className="feature-pic-feature" span={12}>
-          <div className="border-image">
-            <img
-              className="feature-firstImage"
-              src={featureImage}
-              alt="computer-with-apps"
-            />
-          </div>
-        </Col>
-      </Row>
+      <section className="d-flex align-items-center" id="section-feature">
+        <div className="container-fluid nav_bg">
+          <div className="row">
+            <div className="col-10 mx-auto">
+              <div className="row">
+                <div className="col-md-6 pt-5 order-1 order-lg-1">
+                  <FaReact className="feature-icon" />
+                  <h3
+                    className="text-dark fw-normal home-2-title display-6 mb-0"
+                    id="feature-header"
+                  >
+                    Marketing Performance
+                  </h3>
+                  <p className="my-5 text-dark" id="feature-para">
+                    Itaque earum rerum hic tenetur sapiente delectut reiciendis
+                    voluptatibus perspiciatis unde omnis iste natus error sit
+                    maiores alias consequatur perferendisthat doloribus
+                    asperiores repellat.
+                    <br />
+                    <br />
+                    Nam libero tempore cum soluta nobis eligendi optio cumque
+                    nihil impedit minusidquod maxime placeat facere possimus.
+                  </p>
+                </div>
+                <div
+                  className="col-lg-6 order-2 order-lg-2 header-img"
+                  id="pic-div"
+                >
+                  <img
+                    src={featureImage}
+                    className="hover-image"
+                    alt="feature-pic"
+                  />
+                </div>
+              </div>
 
-      <Row className="feature-first-row">
-        <Col span={12}>
-          <div>
-            <MdMoving className="feature-icon" />
-          </div>
-          <h1 className="feature__header-2">Strategy Solutions</h1>
-          <div className="f-feature-desc">
-            <p className="feature-desc">
-              Itaque earum rerum hic tenetur sapiente delectut reiciendis
-              voluptatibus
-              <br /> perspiciatis unde omnis iste natus error sit maiores alias
-              consequatur
-              <br /> perferendisthat doloribus asperiores repellat.
-              <br />
-              <br />
-              Nam libero tempore cum soluta nobis eligendi optio cumque nihil
-              impedit
-              <br /> minusidquod maxime placeat facere possimus.
-            </p>
-          </div>
-        </Col>
-        <Col span={12}>
-          <div className="border-image">
-            <img
-              className="feature-firstImage"
-              src={featureSecImage}
-              alt="computer-with-apps"
-            />
-          </div>
-        </Col>
-      </Row>
+              <div className="row">
+                <div className="col-md-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex justify-content-center flex-column">
+                  <MdMoving className="feature-icon" />
+                  <h3
+                    className="text-dark fw-normal home-2-title display-6 mb-0"
+                    id="feature-header"
+                  >
+                    Strategy Solutions
+                  </h3>
+                  <p className="my-5 text-dark" id="feature-para">
+                    Itaque earum rerum hic tenetur sapiente delectut reiciendis
+                    voluptatibus perspiciatis unde omnis iste natus error sit
+                    maiores alias consequatur perferendisthat doloribus
+                    asperiores repellat.
+                    <br />
+                    <br />
+                    Nam libero tempore cum soluta nobis eligendi optio cumque
+                    nihil impedit minusidquod maxime placeat facere possimus.
+                  </p>
+                </div>
+                <div
+                  className="col-lg-6 order-2 order-lg-2 header-img"
+                  id="pic-div"
+                >
+                  <img
+                    src={featureSecImage}
+                    className="hover-image"
+                    alt="feature-pic"
+                  />
+                </div>
+              </div>
 
-      <Row className="feature-first-row">
-        <Col span={12}>
-          <div>
-            <BsClipboardData className="feature-icon" />
+              <div className="row">
+                <div className="col-md-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex justify-content-center flex-column">
+                  <BsClipboardData className="feature-icon" />
+                  <h3
+                    className="text-dark fw-normal home-2-title display-6 mb-0"
+                    id="feature-header"
+                  >
+                    Marketing business
+                  </h3>
+                  <p className="my-5 text-dark" id="feature-para">
+                    Itaque earum rerum hic tenetur sapiente delectut reiciendis
+                    voluptatibus perspiciatis unde omnis iste natus error sit
+                    maiores alias consequatur perferendisthat doloribus
+                    asperiores repellat.
+                    <br />
+                    <br />
+                    Nam libero tempore cum soluta nobis eligendi optio cumque
+                    nihil impedit minusidquod maxime placeat facere possimus.
+                  </p>
+                </div>
+                <div
+                  className="col-lg-6 order-2 order-lg-2 header-img"
+                  id="pic-div"
+                >
+                  <img
+                    src={featureThirdImage}
+                    className="hover-image"
+                    alt="feature-pic"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
-          <h1 className="feature__header">Marketing Performance</h1>
-          <div className="f-feature-desc">
-            <p className="feature-desc">
-              Itaque earum rerum hic tenetur sapiente delectut reiciendis
-              voluptatibus
-              <br /> perspiciatis unde omnis iste natus error sit maiores alias
-              consequatur
-              <br /> perferendisthat doloribus asperiores repellat.
-              <br />
-              <br />
-              Nam libero tempore cum soluta nobis eligendi optio cumque nihil
-              impedit
-              <br /> minusidquod maxime placeat facere possimus.
-            </p>
-          </div>
-        </Col>
-        <Col span={12}>
-          <div className="border-image">
-            <img
-              className="feature-firstImage"
-              src={featureThirdImage}
-              alt="computer-with-mic"
-            />
-          </div>
-        </Col>
-      </Row>
+        </div>
+      </section>
     </>
   );
 };

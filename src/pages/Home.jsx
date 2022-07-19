@@ -1,35 +1,59 @@
 import React from "react";
-import { Col, Row } from "antd";
 import "../utils/css/home.css";
 import Launch from "../utils/assets/zookilaunch.png";
 
 const Home = () => {
   return (
-    <Row className="home-row">
-      <Col className="home-col-1" span={12}>
-        <div className="home-first-row">
-          <h1 className="heading-home">
-            Make Your
-            <br />
-            Marketing Real.
-          </h1>
-          <p className="home-desc">
-            Ut enim ad minima veniam quis nostrum exercitationem ullam
-            <br /> corporis at suscipit laboriosam nisi ut aliquid a commodi
-            <br />
-            consequatur Quis autem.
-          </p>
-          <div className="home-first-row-second-item">
-            <a href="/about">Learn More</a>
+    <section
+      id="header"
+      className="d-flex align-items-center"
+      style={{
+        background: "#001529",
+      }}
+    >
+      <div
+        className="container-fluid nav_bg"
+        style={{
+          marginLeft: "4%",
+        }}
+      >
+        <div className="row">
+          <div className="col-10 mx-auto">
+            <div className="row">
+              <div
+                className="col-md-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex justify-content-center flex-column"
+                id="main-div"
+              >
+                <h1
+                  className="text-white fw-normal home-2-title display-4 mb-0"
+                  id="tag-h1"
+                >
+                  Make Your Marketing Real.
+                </h1>
+                <h2 className="my-5 text-light" id="tag-h2">
+                  Ut enim ad minima veniam quis nostrum exercitationem ullam
+                  corporis at suscipit laboriosam nisi ut aliquid a commodi
+                  consequatur Quis autem.
+                </h2>
+                <div className="mt-3">
+                  <a href="/#" className="home-btn">
+                    LEARN MORE
+                  </a>
+                </div>
+              </div>
+              <div className="col-lg-6 order-2 order-lg-2 header-img">
+                <img
+                  src={Launch}
+                  style={{ marginTop: "17%" }}
+                  className="img-fluid"
+                  alt="home-pic"
+                />
+              </div>
+            </div>
           </div>
         </div>
-      </Col>
-      <Col span={12}>
-        <div className="home-second-row">
-          <img className="home-second-row-pic" src={Launch} alt="launch" />
-        </div>
-      </Col>
-    </Row>
+      </div>
+    </section>
   );
 };
 export default Home;

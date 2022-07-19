@@ -6,130 +6,203 @@ const Pricing = () => {
     <>
       <h1 className="pricing_header">OUR PRICING</h1>
       <br />
-      <div className="wrapper">
-        <div className="table basic">
-          <div className="price-section">
-            <div className="price-area">
-              <div className="inner-area">
-                <span className="text">$</span>
-                <span className="price">29</span>
+      <div
+        id="generic_price_table"
+        style={{
+          marginTop: "10%",
+        }}
+      >
+        <section className="container">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="generic_content clearfix">
+                  <div class="generic_head_price clearfix">
+                    <div class="generic_head_content clearfix">
+                      <div class="head_bg"></div>
+                      <div class="head">
+                        <span>Basic</span>
+                      </div>
+                    </div>
+
+                    <div class="generic_price_tag clearfix">
+                      <span class="price">
+                        <span class="sign">$</span>
+                        <span class="currency">19</span>
+                        <span class="cent">.99</span>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="generic_feature_list">
+                    <ul>
+                      <li>
+                        <span>1GB</span> Bandwidth
+                      </li>
+                      <li>
+                        <span>100MB</span> Storage
+                      </li>
+                      <li>
+                        <span>02</span> Accounts
+                      </li>
+                      <li>
+                        <span>05</span> Host Domain
+                      </li>
+                      <li>
+                        <span>NO</span> Support
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="generic_price_btn clearfix">
+                    <a class="" href="/#">
+                      buy now
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="generic_content active clearfix">
+                  <div class="generic_head_price clearfix">
+                    <div class="generic_head_content clearfix">
+                      <div class="head_bg"></div>
+                      <div class="head">
+                        <span>Popular</span>
+                      </div>
+                    </div>
+
+                    <div class="generic_price_tag clearfix">
+                      <span class="price">
+                        <span class="sign">$</span>
+                        <span class="currency">39</span>
+                        <span class="cent">.99</span>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="generic_feature_list">
+                    <ul>
+                      <li>
+                        <span>2GB</span> Bandwidth
+                      </li>
+                      <li>
+                        <span>500MB</span> Storage
+                      </li>
+                      <li>
+                        <span>10</span> Accounts
+                      </li>
+                      <li>
+                        <span>10</span> Host Domain
+                      </li>
+                      <li>
+                        <span>24/7</span> Support
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="generic_price_btn clearfix">
+                    <a class="" href="/#">
+                      buy now
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="generic_content clearfix">
+                  <div class="generic_head_price clearfix">
+                    <div class="generic_head_content clearfix">
+                      <div class="head_bg"></div>
+                      <div class="head">
+                        <span>Advanced</span>
+                      </div>
+                    </div>
+
+                    <div class="generic_price_tag clearfix">
+                      <span class="price">
+                        <span class="sign">$</span>
+                        <span class="currency">80</span>
+                        <span class="cent">.00</span>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="generic_feature_list">
+                    <ul>
+                      <li>
+                        <span>4GB</span> Bandwidth
+                      </li>
+                      <li>
+                        <span>1GB</span> Storage
+                      </li>
+                      <li>
+                        <span>18</span> Accounts
+                      </li>
+                      <li>
+                        <span>15</span> Host Domain
+                      </li>
+                      <li>
+                        <span>24/7</span> Support
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="generic_price_btn clearfix">
+                    <a class="" href="/#">
+                      buy now
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="generic_content clearfix">
+                  <div class="generic_head_price clearfix">
+                    <div class="generic_head_content clearfix">
+                      <div class="head_bg"></div>
+                      <div class="head">
+                        <span>Premium</span>
+                      </div>
+                    </div>
+
+                    <div class="generic_price_tag clearfix">
+                      <span class="price">
+                        <span class="sign">$</span>
+                        <span class="currency">29</span>
+                        <span class="cent">.99</span>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="generic_feature_list">
+                    <ul>
+                      <li>
+                        <span>1GB</span> Bandwidth
+                      </li>
+                      <li>
+                        <span>500MB</span> Storage
+                      </li>
+                      <li>
+                        <span>05</span> Accounts
+                      </li>
+                      <li>
+                        <span>10</span> Host Domain
+                      </li>
+                      <li>
+                        <span>24/7</span> Support
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="generic_price_btn clearfix">
+                    <a class="" href="/#">
+                      buy now
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div className="package-name"></div>
-          <ul className="features">
-            <li>
-              <span className="list-name">Bandwidth</span>
-              <span className="icon check">
-                <i className="fas fa-check"></i>
-              </span>
-            </li>
-            <li>
-              <span className="list-name">Online Space</span>
-              <span className="icon check">
-                <i className="fas fa-check"></i>
-              </span>
-            </li>
-            <li>
-              <span className="list-name">Support</span>
-              <span className="icon cross">
-                <i className="fas fa-times"></i>
-              </span>
-            </li>
-            <li>
-              <span className="list-name">Hidden Fees</span>
-              <span className="icon cross">
-                <i className="fas fa-times"></i>
-              </span>
-            </li>
-          </ul>
-          <div className="btn">
-            <button>BUY NOW</button>
-          </div>
-        </div>
-        <div className="table premium">
-          <div className="ribbon">
-            <span>Recommend</span>
-          </div>
-          <div className="price-section">
-            <div className="price-area">
-              <div className="inner-area">
-                <span className="text">$</span>
-                <span className="price">32</span>
-              </div>
-            </div>
-          </div>
-          <div className="package-name"></div>
-          <ul className="features">
-            <li>
-              <span className="list-name">Bandwidth</span>
-              <span className="icon check">
-                <i className="fas fa-check"></i>
-              </span>
-            </li>
-            <li>
-              <span className="list-name">Online Space</span>
-              <span className="icon check">
-                <i className="fas fa-check"></i>
-              </span>
-            </li>
-            <li>
-              <span className="list-name">Support</span>
-              <span className="icon check">
-                <i className="fas fa-check"></i>
-              </span>
-            </li>
-            <li>
-              <span className="list-name">Hidden Fees</span>
-              <span className="icon check">
-                <i className="fas fa-check"></i>
-              </span>
-            </li>
-          </ul>
-          <div className="btn">
-            <button>BUY NOW</button>
-          </div>
-        </div>
-        <div className="table ultimate">
-          <div className="price-section">
-            <div className="price-area">
-              <div className="inner-area">
-                <span className="text">$</span>
-                <span className="price">59</span>
-              </div>
-            </div>
-          </div>
-          <div className="package-name"></div>
-          <ul className="features">
-            <li>
-              <span className="list-name">BandWidth</span>
-              <span className="icon check">
-                <i className="fas fa-check"></i>
-              </span>
-            </li>
-            <li>
-              <span className="list-name">Online Space</span>
-              <span className="icon check">
-                <i className="fas fa-check"></i>
-              </span>
-            </li>
-            <li>
-              <span className="list-name">Support</span>
-              <span className="icon check">
-                <i className="fas fa-check"></i>
-              </span>
-            </li>
-            <li>
-              <span className="list-name">Hidden Fees</span>
-              <span className="icon cross">
-                <i className="fas fa-times"></i>
-              </span>
-            </li>
-          </ul>
-          <div className="btn">
-            <button>BUY NOW</button>
-          </div>
-        </div>
+        </section>
       </div>
     </>
   );

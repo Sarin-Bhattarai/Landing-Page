@@ -25,9 +25,8 @@ const Client = () => {
               <h1 className="client-card-header">"Web Development"</h1>
               <p className="client-desc">
                 At vero eos et accusamus et iusto odio dignissimos that site
-                ducimus
                 <br /> qui blanditiis praesentium voluptatum deleniti atque
-                corrupti quos
+                corrupti
                 <br /> dolores quas molestias excepturi cupiditate non.
               </p>
             </div>
@@ -59,9 +58,8 @@ const Client = () => {
               <h1 className="client-card-header">"Senior Management"</h1>
               <p className="client-desc">
                 At vero eos et accusamus et iusto odio dignissimos that site
-                ducimus
                 <br /> qui blanditiis praesentium voluptatum deleniti atque
-                corrupti quos
+                corrupti
                 <br /> dolores quas molestias excepturi cupiditate non.
               </p>
             </div>
@@ -93,9 +91,8 @@ const Client = () => {
               <h1 className="client-card-header">"Graphic Developer"</h1>
               <p className="client-desc">
                 At vero eos et accusamus et iusto odio dignissimos that site
-                ducimus
                 <br /> qui blanditiis praesentium voluptatum deleniti atque
-                corrupti quos
+                corrupti
                 <br /> dolores quas molestias excepturi cupiditate non.
               </p>
             </div>
@@ -127,9 +124,8 @@ const Client = () => {
               <h1 className="client-card-header">"Best Designer"</h1>
               <p className="client-desc">
                 At vero eos et accusamus et iusto odio dignissimos that site
-                ducimus
                 <br /> qui blanditiis praesentium voluptatum deleniti atque
-                corrupti quos
+                corrupti
                 <br /> dolores quas molestias excepturi cupiditate non.
               </p>
             </div>
