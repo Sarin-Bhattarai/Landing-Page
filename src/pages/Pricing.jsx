@@ -4,7 +4,6 @@ import "../utils/css/pricing.css";
 const Pricing = () => {
   return (
     <>
-      <h1 className="pricing_header">OUR PRICING</h1>
       <br />
       <div
         id="generic_price_table"
@@ -13,10 +12,11 @@ const Pricing = () => {
         }}
       >
         <section className="container">
+          <h1 className="pricing_header">OUR PRICING</h1>
           <div class="container">
             <div class="row">
               <div class="col-md-3">
-                <div class="generic_content clearfix">
+                <div class="generic_content clearfix" id="pri-row">
                   <div class="generic_head_price clearfix">
                     <div class="generic_head_content clearfix">
                       <div class="head_bg"></div>

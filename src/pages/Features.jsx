@@ -10,14 +10,16 @@ import featureThirdImage from "../utils/assets/featurethirdimg.png";
 const Features = () => {
   return (
     <>
-      <h1 className="feature-header">OUR FEATURES</h1>
-      <br />
       <section className="d-flex align-items-center" id="section-feature">
-        <div className="container-fluid nav_bg">
+        <div className="container">
+          <h1 className="feature-header">OUR FEATURES</h1>
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="row">
-                <div className="col-md-6 pt-5 order-1 order-lg-1">
+                <div
+                  className="col-md-6 pt-5 order-1 order-lg-1"
+                  id="feature-res"
+                >
                   <FaReact className="feature-icon" />
                   <h3
                     className="text-dark fw-normal home-2-title display-6 mb-0"
@@ -49,7 +51,7 @@ const Features = () => {
               </div>
 
               <div className="row">
-                <div className="col-md-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex justify-content-center flex-column">
+                <div className="col-md-6 pt-5 pt-lg-0 order-1 order-lg-1 ">
                   <MdMoving className="feature-icon" />
                   <h3
                     className="text-dark fw-normal home-2-title display-6 mb-0"
@@ -81,7 +83,7 @@ const Features = () => {
               </div>
 
               <div className="row">
-                <div className="col-md-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex justify-content-center flex-column">
+                <div className="col-md-6 pt-5 pt-lg-0 order-1 order-lg-1 ">
                   <BsClipboardData className="feature-icon" />
                   <h3
                     className="text-dark fw-normal home-2-title display-6 mb-0"

@@ -4,13 +4,13 @@ import "../utils/css/services.css";
 const Services = () => {
   return (
     <>
-      <h3 className="service-header">OUR SERVICES</h3>
       <section
         style={{
           marginTop: "10%",
         }}
       >
         <div className="container">
+          <h3 className="service-header">OUR SERVICES</h3>
           <div className="row my-5">
             <div className="col-12 col-sm-6 col-md-4 m-auto" id="main-column">
               <div className="card border-0 shadow my-3" id="main-card">

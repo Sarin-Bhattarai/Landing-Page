@@ -6,7 +6,6 @@
 
 .service-header {
   margin-top: -7%;
-  margin-left: 12%;
   font-family: "Rubik", sans-serif;
   font-weight: 300;
   font-size: 27px;
@@ -43,66 +42,4 @@ i {
 
 #main-card:hover h1 {
   color: #005bea;
-}
-
-@media screen and (max-width: 790px) {
-  .service-header {
-    margin-left: 20%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .service-header {
-    margin-top: 27%;
-  }
-
-  #main-column {
-    margin-top: 20% !important;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .service-header {
-    margin-top: 35%;
-  }
-
-  #main-column {
-    margin-top: 25% !important;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .service-header {
-    margin-top: 45%;
-  }
-
-  #main-column {
-    margin-top: 25% !important;
-  }
-}
-
-@media screen and (max-width: 430px) {
-  .service-header {
-    margin-top: 55%;
-  }
-
-  #main-column {
-    margin-top: 25% !important;
-  }
-}
-
-@media screen and (max-width: 335px) {
-  .service-header {
-    margin-top: 65%;
-  }
-
-  #main-column {
-    margin-top: 25% !important;
-  }
-}
-
-@media screen and (max-width: 530px) {
-  .service-header {
-    margin-left: 20%;
-  }
 }

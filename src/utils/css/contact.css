@@ -8,7 +8,7 @@
 
 .contact-header {
   margin-top: 5%;
-  margin-left: 13%;
+  margin-left: 7%;
   font-family: "Rubik", sans-serif;
   font-weight: 300;
   font-size: 27px;
@@ -148,5 +148,11 @@
   .contact-container .contactInfo,
   .contactForm {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .contact-header {
+    margin-left: 16%;
   }
 }

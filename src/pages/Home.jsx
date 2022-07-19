@@ -11,12 +11,7 @@ const Home = () => {
         background: "#001529",
       }}
     >
-      <div
-        className="container-fluid nav_bg"
-        style={{
-          marginLeft: "4%",
-        }}
-      >
+      <div className="container-fluid nav_bg">
         <div className="row">
           <div className="col-10 mx-auto">
             <div className="row">

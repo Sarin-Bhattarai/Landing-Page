@@ -2,7 +2,7 @@
 
 .blog-header {
   margin-top: 7%;
-  margin-left: 15%;
+  margin-left: 10%;
   font-family: "Rubik", sans-serif;
   font-weight: 300;
   font-size: 27px;
@@ -102,5 +102,23 @@
     text-align: center;
     margin-top: 28%;
     margin-left: 2%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .blog-header {
+    margin-left: 16%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .blog-header {
+    margin-left: 11%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .blog-header {
+    margin-left: 16%;
   }
 }

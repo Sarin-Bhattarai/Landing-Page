@@ -6,6 +6,7 @@
   border-radius: 300px;
   background: #005bea;
   margin-bottom: 10%;
+  margin-top: 5%;
 }
 
 #pic-div:hover {
@@ -45,13 +46,15 @@
 }
 
 .feature-header {
-  margin-top: 5%;
-  margin-left: 13%;
   font-family: "Rubik", sans-serif;
   font-weight: 300;
   font-size: 27px;
   border-bottom: 2px solid #005bea;
   position: absolute;
+}
+
+#feature-res {
+  margin-top: 5%;
 }
 
 @media screen and (max-width: 500px) {
