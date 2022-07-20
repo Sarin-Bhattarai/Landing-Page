@@ -4,51 +4,54 @@ import Launch from "../utils/assets/zookilaunch.png";
 
 const Home = () => {
   return (
-    <section
-      id="header"
-      className="d-flex align-items-center"
-      style={{
-        background: "#001529",
-      }}
-    >
-      <div className="container-fluid nav_bg">
-        <div className="row">
-          <div className="col-10 mx-auto">
-            <div className="row">
-              <div
-                className="col-md-6 pt-5 pt-lg-0 order-1 order-lg-1 d-flex justify-content-center flex-column"
-                id="main-div"
-              >
-                <h1
-                  className="text-white fw-normal home-2-title display-4 mb-0"
-                  id="tag-h1"
-                >
-                  Make Your Marketing Real.
+    <>
+      <section
+        id="header"
+        style={{
+          background: "#001529",
+        }}
+      >
+        <div className="container">
+          <div className="row my-5">
+            <div
+              className="col-12 col-sm-6  order-1 order-lg-1 col-md-6 m-auto"
+              id="main-div"
+            >
+              <div className="border-0 my-3">
+                <h1 id="tag-h1" className="text-light">
+                  Make Your
+                  <br /> Marketing Real.
                 </h1>
-                <h2 className="my-5 text-light" id="tag-h2">
+                <p className="text-light" id="tag-h2">
                   Ut enim ad minima veniam quis nostrum exercitationem ullam
                   corporis at suscipit laboriosam nisi ut aliquid a commodi
-                  consequatur Quis autem.
-                </h2>
-                <div className="mt-3">
+                  consequatur Quis autem
+                </p>
+                <div className="mt-4">
                   <a href="/#" className="home-btn">
                     LEARN MORE
                   </a>
                 </div>
               </div>
-              <div className="col-lg-6 order-2 order-lg-2 header-img">
+            </div>
+            {/* col ends */}
+            <div className="col-12 col-sm-6 order-2 order-lg-2 col-md-6 m-auto">
+              <div className="my-3">
                 <img
+                  className="img-fluid"
                   src={Launch}
                   style={{ marginTop: "17%" }}
-                  className="img-fluid"
-                  alt="home-pic"
+                  alt="home pic"
                 />
               </div>
             </div>
+            {/* col ends */}
           </div>
+          {/* row ends */}
         </div>
-      </div>
-    </section>
+        {/* container ends */}
+      </section>
+    </>
   );
 };
 export default Home;

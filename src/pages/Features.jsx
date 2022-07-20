@@ -10,112 +10,109 @@ import featureThirdImage from "../utils/assets/featurethirdimg.png";
 const Features = () => {
   return (
     <>
-      <section className="d-flex align-items-center" id="section-feature">
+      <section>
         <div className="container">
-          <h1 className="feature-header">OUR FEATURES</h1>
-          <div className="row">
-            <div className="col-10 mx-auto">
-              <div className="row">
-                <div
-                  className="col-md-6 pt-5 order-1 order-lg-1"
-                  id="feature-res"
-                >
-                  <FaReact className="feature-icon" />
-                  <h3
-                    className="text-dark fw-normal home-2-title display-6 mb-0"
-                    id="feature-header"
-                  >
-                    Marketing Performance
-                  </h3>
-                  <p className="my-5 text-dark" id="feature-para">
-                    Itaque earum rerum hic tenetur sapiente delectut reiciendis
-                    voluptatibus perspiciatis unde omnis iste natus error sit
-                    maiores alias consequatur perferendisthat doloribus
-                    asperiores repellat.
-                    <br />
-                    <br />
-                    Nam libero tempore cum soluta nobis eligendi optio cumque
-                    nihil impedit minusidquod maxime placeat facere possimus.
-                  </p>
-                </div>
-                <div
-                  className="col-lg-6 order-2 order-lg-2 header-img"
-                  id="pic-div"
-                >
-                  <img
-                    src={featureImage}
-                    className="hover-image"
-                    alt="feature-pic"
-                  />
-                </div>
-              </div>
-
-              <div className="row">
-                <div className="col-md-6 pt-5 pt-lg-0 order-1 order-lg-1 ">
-                  <MdMoving className="feature-icon" />
-                  <h3
-                    className="text-dark fw-normal home-2-title display-6 mb-0"
-                    id="feature-header"
-                  >
-                    Strategy Solutions
-                  </h3>
-                  <p className="my-5 text-dark" id="feature-para">
-                    Itaque earum rerum hic tenetur sapiente delectut reiciendis
-                    voluptatibus perspiciatis unde omnis iste natus error sit
-                    maiores alias consequatur perferendisthat doloribus
-                    asperiores repellat.
-                    <br />
-                    <br />
-                    Nam libero tempore cum soluta nobis eligendi optio cumque
-                    nihil impedit minusidquod maxime placeat facere possimus.
-                  </p>
-                </div>
-                <div
-                  className="col-lg-6 order-2 order-lg-2 header-img"
-                  id="pic-div"
-                >
-                  <img
-                    src={featureSecImage}
-                    className="hover-image"
-                    alt="feature-pic"
-                  />
-                </div>
-              </div>
-
-              <div className="row">
-                <div className="col-md-6 pt-5 pt-lg-0 order-1 order-lg-1 ">
-                  <BsClipboardData className="feature-icon" />
-                  <h3
-                    className="text-dark fw-normal home-2-title display-6 mb-0"
-                    id="feature-header"
-                  >
-                    Marketing business
-                  </h3>
-                  <p className="my-5 text-dark" id="feature-para">
-                    Itaque earum rerum hic tenetur sapiente delectut reiciendis
-                    voluptatibus perspiciatis unde omnis iste natus error sit
-                    maiores alias consequatur perferendisthat doloribus
-                    asperiores repellat.
-                    <br />
-                    <br />
-                    Nam libero tempore cum soluta nobis eligendi optio cumque
-                    nihil impedit minusidquod maxime placeat facere possimus.
-                  </p>
-                </div>
-                <div
-                  className="col-lg-6 order-2 order-lg-2 header-img"
-                  id="pic-div"
-                >
-                  <img
-                    src={featureThirdImage}
-                    className="hover-image"
-                    alt="feature-pic"
-                  />
-                </div>
+          <h3 className="feature-header">OUR FEATURES</h3>
+          <div className="row my-5">
+            <div className="col-12 col-sm-6 col-md-6 m-auto" id="feature-res">
+              <div className="border-0 my-3 order-1 order-lg-1">
+                <FaReact className="feature-icon" />
+                <h1 id="feature-header" className="text-dark">
+                  Marketing Performance
+                </h1>
+                <p id="feature-para">
+                  Itaque earum rerum hic tenetur sapiente delectut reiciendis
+                  voluptatibus perspiciatis unde omnis iste natus error sit
+                  maiores alias consequatur perferendisthat doloribus asperiores
+                  repellat.
+                  <br />
+                  <br />
+                  Nam libero tempore com soluta nobis eligendi optio cumque
+                  nihil impedit minusidquod maxime placeat facere possimus.
+                </p>
               </div>
             </div>
+            {/* col ends */}
+            <div className="col-12 col-sm-6 col-md-6 m-auto">
+              <div className="my-3 order-2 order-lg-2" id="pic-div">
+                <img
+                  className="hover-image"
+                  src={featureImage}
+                  alt="feature FirstImage"
+                />
+              </div>
+            </div>
+            {/* col ends */}
           </div>
+          {/* row ends */}
+
+          <div className="row my-5">
+            <div className="col-12 col-sm-6 col-md-6 m-auto">
+              <div className="my-3 order-1 order-lg-1" id="pic-div">
+                <img
+                  className="hover-image"
+                  src={featureSecImage}
+                  alt="feature SecondImage"
+                />
+              </div>
+            </div>
+            {/* col ends */}
+            <div className="col-12 col-sm-6 col-md-6 m-auto" id="feature-res">
+              <div className="border-0 my-3 order-2 order-lg-2">
+                <MdMoving className="feature-icon" />
+                <h1 id="feature-header" className="text-dark">
+                  Strategy Solutions
+                </h1>
+                <p id="feature-para">
+                  Itaque earum rerum hic tenetur sapiente delectut reiciendis
+                  voluptatibus perspiciatis unde omnis iste natus error sit
+                  maiores alias consequatur perferendisthat doloribus asperiores
+                  repellat.
+                  <br />
+                  <br />
+                  Nam libero tempore com soluta nobis eligendi optio cumque
+                  nihil impedit minusidquod maxime placeat facere possimus.
+                </p>
+              </div>
+            </div>
+            {/* col ends */}
+          </div>
+          {/* row ends */}
+
+          <div className="row my-5">
+            <div className="col-12 col-sm-6 col-md-6 m-auto" id="feature-res">
+              <div className="border-0 my-3 order-1 order-lg-1">
+                <BsClipboardData className="feature-icon" />
+                <h1 id="feature-header" className="text-dark">
+                  Marketing business
+                </h1>
+                <p id="feature-para">
+                  Itaque earum rerum hic tenetur sapiente delectut reiciendis
+                  voluptatibus perspiciatis unde omnis iste natus error sit
+                  maiores alias consequatur perferendisthat doloribus asperiores
+                  repellat.
+                  <br />
+                  <br />
+                  Nam libero tempore com soluta nobis eligendi optio cumque
+                  nihil impedit minusidquod maxime placeat facere possimus.
+                </p>
+              </div>
+            </div>
+            {/* col ends */}
+            <div className="col-12 col-sm-6 col-md-6 m-auto">
+              <div className="my-3 order-2 order-lg-2" id="pic-div">
+                <img
+                  className="hover-image"
+                  src={featureThirdImage}
+                  alt="feature ThirdImage"
+                />
+              </div>
+            </div>
+            {/* col ends */}
+          </div>
+          {/* row ends */}
         </div>
+        {/* container ends */}
       </section>
     </>
   );

@@ -6,7 +6,7 @@
   border-radius: 300px;
   background: #005bea;
   margin-bottom: 10%;
-  margin-top: 5%;
+  margin-top: 10% !important;
 }
 
 #pic-div:hover {
@@ -22,10 +22,6 @@
 
 .hover-image:hover {
   transform: scale(1.1);
-}
-
-#section-feature {
-  margin-top: 5%;
 }
 
 .feature-icon {
@@ -51,10 +47,11 @@
   font-size: 27px;
   border-bottom: 2px solid #005bea;
   position: absolute;
+  margin-top: 3%;
 }
 
 #feature-res {
-  margin-top: 5%;
+  margin-top: 10% !important;
 }
 
 @media screen and (max-width: 500px) {

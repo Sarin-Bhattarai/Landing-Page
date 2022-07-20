@@ -49,6 +49,7 @@
 
 #tag-h1 {
   font-size: 54px;
+  font-family: "Rubik", sans-serif;
 }
 
 #tag-h2 {
@@ -58,7 +59,7 @@
 
 @media screen and (max-width: 992px) {
   #main-div {
-    margin-top: 10%;
+    margin-top: 10% !important;
   }
 }
 

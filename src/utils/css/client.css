@@ -13,7 +13,7 @@
 
 .client-header {
   margin-top: 4%;
-  margin-left: 15%;
+  margin-left: 7%;
   font-family: "Rubik", sans-serif;
   font-weight: 300;
   font-size: 27px;
@@ -197,12 +197,28 @@
 
 @media screen and (min-width: 1600px) {
   .client-card {
-    height: 15vh;
+    height: 20vh;
+  }
+
+  .client-header {
+    margin-left: 8%;
   }
 }
 
 @media screen and (min-width: 1900px) {
   .client-card {
-    height: 13vh;
+    height: 20vh;
+  }
+
+  .client-header {
+    margin-left: 16%;
+  }
+
+  .avatar-header-2 {
+    margin-top: 0%;
+  }
+
+  .avatar-header-2-2 {
+    margin-top: 0%;
   }
 }

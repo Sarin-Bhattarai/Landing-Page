@@ -24,7 +24,7 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0" id="ul-id">
-              <li className="nav-item mx-2">
+              <li className="nav-item mx-2" id="li-id">
                 <Link
                   className="nav-link"
                   activeClass="active"
