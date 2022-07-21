@@ -7,13 +7,16 @@
 }
 
 .contact-header {
-  margin-top: 5%;
+  top: 0;
+  left: 0;
   margin-left: 7%;
+  margin-top: 4%;
   font-family: "Rubik", sans-serif;
   font-weight: 300;
   font-size: 27px;
   border-bottom: 2px solid #005bea;
   position: absolute;
+  color: #fff;
 }
 
 .contact {
@@ -148,6 +151,20 @@
   .contact-container .contactInfo,
   .contactForm {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .contact-header {
+    margin-left: 13%;
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .contact-header {
+    margin-left: 8%;
+    margin-top: 2%;
   }
 }
 

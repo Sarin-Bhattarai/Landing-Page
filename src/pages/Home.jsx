@@ -9,6 +9,7 @@ const Home = () => {
         id="header"
         style={{
           background: "#001529",
+          minHeight: "90vh",
         }}
       >
         <div className="container">

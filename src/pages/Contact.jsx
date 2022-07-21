@@ -7,10 +7,9 @@ import Footer from "../components/contact-footer/footer";
 const Contact = () => {
   return (
     <>
-      <h3 className="contact-header">GET IN TOUCH</h3>
-      <br />
       <section className="contact">
         <div className="contact-container">
+          <h3 className="contact-header">GET IN TOUCH</h3>
           <div className="contactInfo">
             <div className="box">
               <div className="contact-icon">

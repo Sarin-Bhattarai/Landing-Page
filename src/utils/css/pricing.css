@@ -87,10 +87,6 @@ body {
 #generic_price_table .generic_content .generic_feature_list ul li span {
   color: #414141;
 }
-#generic_price_table .generic_content .generic_feature_list ul li:hover {
-  background-color: #e4e4e4;
-  border-left: 5px solid #005bea;
-}
 
 #generic_price_table .generic_content .generic_price_btn a {
   border: 1px solid #005bea;
