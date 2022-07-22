@@ -18,8 +18,8 @@ const Contact = () => {
               <div className="contact-text">
                 <h3>Address</h3>
                 <p>
-                  4671 Sugar Camp Road, <br /> Owatonna, Minnesota, <br />
-                  55060
+                  Pashuati Road, <br /> New Baneshwor, <br />
+                  44600
                 </p>
               </div>
             </div>
@@ -29,7 +29,7 @@ const Contact = () => {
               </div>
               <div className="contact-text">
                 <h3>Phone</h3>
-                <p>507-475-6094</p>
+                <p>977-985600000</p>
               </div>
             </div>
             <div className="box">
@@ -62,6 +62,19 @@ const Contact = () => {
               </div>
             </form>
           </div>
+        </div>
+        <div className="container" id="map-c">
+          <iframe
+            width="600"
+            title="Map"
+            height="350"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?q=baneswor&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+          ></iframe>
         </div>
       </section>
       <Footer />

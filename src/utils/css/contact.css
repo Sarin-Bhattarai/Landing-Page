@@ -10,7 +10,7 @@
   top: 0;
   left: 0;
   margin-left: 7%;
-  margin-top: 4%;
+  margin-top: 1%;
   font-family: "Rubik", sans-serif;
   font-weight: 300;
   font-size: 27px;
@@ -133,6 +133,24 @@
   cursor: pointer;
   padding: 10px;
   font-size: 18px;
+}
+
+@media screen and (max-width: 1286px) {
+  #map-c {
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #map-c {
+    margin-left: 0% !important;
+  }
+}
+
+@media screen and (max-width: 691px) {
+  iframe {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 991px) {
