@@ -1,32 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import "../utils/css/navbar.css";
 import logo from "../utils/assets/zooki.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
+  const [active, setActive] = useState("nav__menu");
+  const [toggleIcon, setToggleIcon] = useState("nav__toggler");
+  const navToggle = () => {
+    active === "nav__menu"
+      ? setActive("nav__menu nav__active")
+      : setActive("nav__menu");
+
+    toggleIcon === "nav__toggler"
+      ? setToggleIcon("nav__toggler toggle")
+      : setToggleIcon("nav__toggler");
+  };
   return (
     <>
-      <nav className="navbar navbar-expand-lg">
-        <div className="container">
-          <a href="/">
-            <img className="logo" src={logo} alt="logo" />
+      <div className="container">
+        <nav className="nav">
+          <a href="/" className="logo">
+            <img src={logo} alt="logo" />
           </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon btn btn-light"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0" id="ul-id">
-              <li className="nav-item mx-2" id="li-id">
+          <div className="ms-auto">
+            <ul className={active}>
+              <li className="nav__item">
                 <Link
-                  className="nav-link"
+                  className="nav__link"
                   activeClass="active"
                   smooth
                   spy
@@ -35,10 +35,9 @@ const Navbar = () => {
                   HOME
                 </Link>
               </li>
-
-              <li className="nav-item mx-2">
+              <li className="nav__item">
                 <Link
-                  className="nav-link"
+                  className="nav__link"
                   activeClass="active"
                   smooth
                   spy
@@ -47,10 +46,9 @@ const Navbar = () => {
                   ABOUT
                 </Link>
               </li>
-
-              <li className="nav-item mx-2">
+              <li className="nav__item">
                 <Link
-                  className="nav-link"
+                  className="nav__link"
                   activeClass="active"
                   smooth
                   spy
@@ -59,10 +57,9 @@ const Navbar = () => {
                   SERVICES
                 </Link>
               </li>
-
-              <li className="nav-item mx-2">
+              <li className="nav__item">
                 <Link
-                  className="nav-link"
+                  className="nav__link"
                   activeClass="active"
                   smooth
                   spy
@@ -71,10 +68,9 @@ const Navbar = () => {
                   FEATURES
                 </Link>
               </li>
-
-              <li className="nav-item mx-2">
+              <li className="nav__item">
                 <Link
-                  className="nav-link"
+                  className="nav__link"
                   activeClass="active"
                   smooth
                   spy
@@ -83,10 +79,9 @@ const Navbar = () => {
                   PRICING
                 </Link>
               </li>
-
-              <li className="nav-item mx-2">
+              <li className="nav__item">
                 <Link
-                  className="nav-link"
+                  className="nav__link"
                   activeClass="active"
                   smooth
                   spy
@@ -95,10 +90,9 @@ const Navbar = () => {
                   CLIENTS
                 </Link>
               </li>
-
-              <li className="nav-item mx-2">
+              <li className="nav__item">
                 <Link
-                  className="nav-link"
+                  className="nav__link"
                   activeClass="active"
                   smooth
                   spy
@@ -107,10 +101,9 @@ const Navbar = () => {
                   BLOG
                 </Link>
               </li>
-
-              <li className="nav-item mx-2">
+              <li className="nav__item">
                 <Link
-                  className="nav-link"
+                  className="nav__link"
                   activeClass="active"
                   smooth
                   spy
@@ -121,8 +114,13 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
+          <div onClick={navToggle} className={toggleIcon}>
+            <div className="line1"></div>
+            <div className="line2"></div>
+            <div className="line3"></div>
+          </div>
+        </nav>
+      </div>
     </>
   );
 };
