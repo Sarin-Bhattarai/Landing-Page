@@ -186,8 +186,32 @@
   }
 }
 
+@media screen and (min-width: 1800px) {
+  .contact-header {
+    margin-left: 16%;
+  }
+
+  .box {
+    margin-left: 8%;
+  }
+}
+
 @media screen and (min-width: 1900px) {
   .contact-header {
     margin-left: 16%;
+  }
+
+  .box {
+    margin-left: 12%;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .contact-header {
+    margin-left: 20%;
+  }
+
+  .box {
+    margin-left: 22%;
   }
 }

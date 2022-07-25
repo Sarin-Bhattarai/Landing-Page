@@ -4,146 +4,88 @@ import "./footer.css";
 const Footer = () => {
   return (
     <>
-      <footer
-        className="text-dark pt-5 pb-4"
-        style={{
-          marginTop: "5%",
-        }}
-      >
-        <div className="container text-center text-md-left">
-          <div className="row text-center text-md-left">
-            <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h3 className="text-uppercase mb-4 font-weight-bold text-dark">
-                ABOUT US
-              </h3>
-              <p className="footer-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-                aliquam cupiditate, soluta consequatur similique ea dolores et
-                inventore placeat reiciendis beatae, porro laudantium officiis
-                delectus vel at ducimus.
-              </p>
-            </div>
-            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h3 className="text-uppercase mb-4 font-weight-bold text-dark">
-                Company
-              </h3>
-              <p className="link-desc">
-                <a
-                  href="/#"
-                  className="text-dark"
-                  style={{ textDecoration: "none" }}
-                >
-                  Monitoring Grader
-                </a>
-              </p>
+      <footer className="text-center text-lg-start bg-light text-muted">
+        <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"></section>
+        <section className="">
+          <div className="container text-center text-md-start mt-5">
+            <div className="row mt-3">
+              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 className="text-uppercase mb-4">ABOUT US</h6>
+                <p>
+                  Here you can use rows and columns to organize your footer
+                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.
+                </p>
+              </div>
 
-              <p className="link-desc">
-                <a
-                  href="/#"
-                  className="text-dark"
-                  style={{ textDecoration: "none" }}
-                >
-                  Job Opening
-                </a>
-              </p>
-              <p className="link-desc">
-                <a
-                  href="/#"
-                  className="text-dark"
-                  style={{ textDecoration: "none" }}
-                >
-                  Customers
-                </a>
-              </p>
-              <p className="link-desc">
-                <a
-                  href="/#"
-                  className="text-dark"
-                  style={{ textDecoration: "none" }}
-                >
-                  Privacy
-                </a>
-              </p>
-            </div>
+              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 className="text-uppercase mb-4">COMPANY</h6>
+                <p id="para-p">
+                  <a href="#!" className="text-reset">
+                    Monitoring Grader
+                  </a>
+                </p>
+                <p id="para-p">
+                  <a href="#!" className="text-reset">
+                    Job Opening
+                  </a>
+                </p>
+                <p id="para-p">
+                  <a href="#!" className="text-reset">
+                    Customers
+                  </a>
+                </p>
+                <p id="para-p">
+                  <a href="#!" className="text-reset">
+                    Privacy
+                  </a>
+                </p>
+              </div>
 
-            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h3 className="text-uppercase mb-4 font-weight-bold text-dark">
-                SUPPORT
-              </h3>
-              <p className="link-desc">
-                <a
-                  href="/#"
-                  className="text-dark"
-                  style={{ textDecoration: "none" }}
-                >
-                  Get Started
-                </a>
-              </p>
-
-              <p className="link-desc">
-                <a
-                  href="/#"
-                  className="text-dark"
-                  style={{ textDecoration: "none" }}
-                >
-                  Blog
-                </a>
-              </p>
-              <p className="link-desc">
-                <a
-                  href="/#"
-                  className="text-dark"
-                  style={{ textDecoration: "none" }}
-                >
-                  Knowledge Base
-                </a>
-              </p>
-            </div>
-
-            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h3 className="text-uppercase mb-4 font-weight-bold text-dark">
-                LEGAL
-              </h3>
-              <p className="link-desc">
-                <a
-                  href="/#"
-                  className="text-dark"
-                  style={{ textDecoration: "none" }}
-                >
-                  Terms & Conditions
-                </a>
-              </p>
-
-              <p className="link-desc">
-                <a
-                  href="/#"
-                  className="text-dark"
-                  style={{ textDecoration: "none" }}
-                >
-                  Privacy Policy
-                </a>
-              </p>
-              <p className="link-desc">
-                <a
-                  href="/#"
-                  className="text-dark"
-                  style={{ textDecoration: "none" }}
-                >
-                  Customers
-                </a>
-              </p>
-              <p className="link-desc">
-                <a
-                  href="/#"
-                  className="text-dark"
-                  style={{ textDecoration: "none" }}
-                >
-                  Pricing
-                </a>
-              </p>
+              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 className="text-uppercase mb-4">SUPPORT</h6>
+                <p id="para-p">
+                  <a href="#!" className="text-reset">
+                    Get Started
+                  </a>
+                </p>
+                <p id="para-p">
+                  <a href="#!" className="text-reset">
+                    Blog
+                  </a>
+                </p>
+                <p id="para-p">
+                  <a href="#!" className="text-reset">
+                    Knowledge Base
+                  </a>
+                </p>
+              </div>
+              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 className="text-uppercase mb-4">LEGAL</h6>
+                <p id="para-p">
+                  <a href="#!" className="text-reset">
+                    Terms & Conditions
+                  </a>
+                </p>
+                <p id="para-p">
+                  <a href="#!" className="text-reset">
+                    Privacy Policy
+                  </a>
+                </p>
+                <p id="para-p">
+                  <a href="#!" className="text-reset">
+                    Customers
+                  </a>
+                </p>
+                <p id="para-p">
+                  <a href="#!" className="text-reset">
+                    Pricing
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
+        </section>
       </footer>
     </>
   );
