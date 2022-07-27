@@ -88,3 +88,27 @@
     height: 280px;
   }
 }
+
+@media screen and (max-width: 576px) {
+  #pic-div {
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  #pic-div {
+    margin-left: 12%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  #pic-div {
+    margin-left: 8%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #pic-div {
+    margin-left: 4%;
+  }
+}
