@@ -34,7 +34,13 @@ const Features = () => {
             </div>
             {/* col ends */}
             <div className="col-12 col-sm-6 col-md-6 m-auto">
-              <div className="my-3 order-2 order-lg-2" id="pic-div">
+              <div
+                className="my-3 order-2 order-lg-2"
+                id="pic-div"
+                style={{
+                  marginLeft: "22%",
+                }}
+              >
                 <img
                   className="hover-image"
                   src={featureImage}
@@ -46,6 +52,17 @@ const Features = () => {
           </div>
           {/* row ends */}
           <div className="row my-5">
+            <div className="col-12 col-sm-6 col-md-6 m-auto">
+              <div className="my-3 order-2 order-lg-2" id="pic-div">
+                <img
+                  className="hover-image"
+                  src={featureSecImage}
+                  alt="feature secondImage"
+                />
+              </div>
+            </div>
+            {/* col ends */}
+
             <div className="col-12 col-sm-6 col-md-6 m-auto" id="feature-res">
               <div className="border-0 my-3 order-1 order-lg-1">
                 <MdMoving className="feature-icon" />
@@ -62,16 +79,6 @@ const Features = () => {
                   Nam libero tempore com soluta nobis eligendi optio cumque
                   nihil impedit minusidquod maxime placeat facere possimus.
                 </p>
-              </div>
-            </div>
-            {/* col ends */}
-            <div className="col-12 col-sm-6 col-md-6 m-auto">
-              <div className="my-3 order-2 order-lg-2" id="pic-div">
-                <img
-                  className="hover-image"
-                  src={featureSecImage}
-                  alt="feature secondImage"
-                />
               </div>
             </div>
             {/* col ends */}
@@ -99,7 +106,13 @@ const Features = () => {
             </div>
             {/* col ends */}
             <div className="col-12 col-sm-6 col-md-6 m-auto">
-              <div className="my-3 order-2 order-lg-2" id="pic-div">
+              <div
+                className="my-3 order-2 order-lg-2"
+                id="pic-div"
+                style={{
+                  marginLeft: "22%",
+                }}
+              >
                 <img
                   className="hover-image"
                   src={featureThirdImage}

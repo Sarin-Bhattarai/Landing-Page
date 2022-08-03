@@ -87,6 +87,10 @@
     width: 280px;
     height: 280px;
   }
+
+  #pic-div {
+    margin-left: 10% !important;
+  }
 }
 
 @media screen and (max-width: 576px) {
